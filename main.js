@@ -12,41 +12,28 @@ async function loadColorMap(url) {
 }
 
 async function fileChange(input) {
-  const file    = input.files[0];
-  const mapdata = await loadMapData(file);
-  const colors  = extractColors(mapdata);
-  const map     = processColors(colors);
-  displayMap(map);
+    const file    = input.files[0];
+    const mapdata = await loadMapData(file);
+    const colors  = await extractColors(mapdata);
+    const map     = processColors(colors);
+    drawMap(map);
 }
 
 async function loadMapData(file) {
-  const buffer = await new Promise(resolve => { // waiting for FileReader
-    const reader  = new FileReader();
-    reader.onload = () => resolve(reader.result);
-    reader.readAsArrayBuffer(file);
-  })
+  const buffer = await file.arrayBuffer();
   const array   = new Uint8Array(buffer)
   const mapdata = pako.inflate(array); // unzipping
   return mapdata;
 }
 
-function extractColors(mapdata) {
-  //searching for start of colors array
-  const matchingSet = [0x07, 0x00, 0x06, 0x63, 0x6F, 0x6C, 0x6F, 0x72, 0x73, 0x00];
-  let matchingPos = 0;
-  let colors;
-  for (var i=0; i<mapdata.length; i++) {
-    if (matchingPos === 9) break;
-    if (mapdata[i] === matchingSet[matchingPos]) matchingPos++;
-    else matchingPos = 0;
-  }
-
-  //identifying length of colors array
-  const length = Array.from(mapdata.slice(i, i+4))
-                  .map((n,i) => n*Math.pow(16, 4-i))
-                  .reduce((p,c) => p+c);
-  colors = mapdata.slice(i+4, i+4+length);
-
+async function extractColors(mapdata) {
+  const data = await new Promise((resolve, reject) => {
+    nbt.parse(mapdata, (error, data) => {
+      if (error) reject(error);
+      else resolve(data);
+    });
+  });
+  const colors = data.value.data.value.colors.value;
   return colors;
 }
 
@@ -59,7 +46,7 @@ class Cell {
   }
 
   static fromColorMapEntry (colorMapEntry) {
-    const c = colorMapEntry;
+    const c = colorMapEntry || {ID: 0, Name: "NONE", RGB: "Tranparent", Blocks: "Bad Pixel"};
     return new Cell(c.ID, c.Name, c.RGB, c.Blocks);
   }
 
@@ -109,12 +96,33 @@ function displayMap(map) {
         .attr("y", d => d.y*SIZE)
         .attr("width", SIZE)
         .attr("height", SIZE)
+        .attr("data-blocks", d => d.blocks)
         .on("mouseover", (e,d) => d3.select("#lookingAt").text(d.blocks))
         .on("mouseout", () => d3.select("#lookingAt").text(""))
         .style("fill", d => {
           if (d.rgb === "Transparent") return "transparent";
           return `rgb(${d.rgb})`;
         });
+}
+
+function drawMap(map) {
+  const SIZE = 8;
+  const canvas = d3.select("canvas")
+    .attr("width", map.length *SIZE + "px")
+    .attr("height", map.length *SIZE + "px")
+    .node();
+  const c = canvas.getContext("2d");
+  c.moveTo(0,0);
+  for(let x=0; x<map.length; x++) {
+    for (let y=0; y<map[x].length; y++) {
+      if (map[x][y].rgb === "Transparent") {
+        c.clearRect(x*SIZE, y*SIZE, SIZE, SIZE);
+      } else {
+        c.fillStyle = `rgb(${map[x][y].rgb})`;
+        c.fillRect(x*SIZE, y*SIZE, SIZE, SIZE);
+      }
+    }
+  }
 }
 
 
