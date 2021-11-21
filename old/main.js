@@ -1,5 +1,5 @@
 const main = function() {
-  loadColorMap("mcmapcolorids.json");
+  loadColorMap("config/mcmapcolorids.json");
 }();
 
 async function loadColorMap(url) {
@@ -14,9 +14,12 @@ async function loadColorMap(url) {
 async function fileChange(input) {
     const file    = input.files[0];
     const mapdata = await loadMapData(file);
-    const colors  = await extractColors(mapdata);
-    const map     = processColors(colors);
-    drawMap(map);
+    const mcmap   = await NBTParser.parse(mapdata);
+    const map     = await MCMap.fromNBTData(mcmap);
+    console.debug(map);
+    // const colors  = await extractColors(mapdata);
+    // const map     = processColors(colors);
+    drawMap(map.pixels);
 }
 
 async function loadMapData(file) {
@@ -33,6 +36,7 @@ async function extractColors(mapdata) {
       else resolve(data);
     });
   });
+  console.debug(data);
   const colors = data.value.data.value.colors.value;
   return colors;
 }
@@ -115,10 +119,10 @@ function drawMap(map) {
   c.moveTo(0,0);
   for(let x=0; x<map.length; x++) {
     for (let y=0; y<map[x].length; y++) {
-      if (map[x][y].rgb === "Transparent") {
+      if (map[x][y].color === "Transparent") {
         c.clearRect(x*SIZE, y*SIZE, SIZE, SIZE);
       } else {
-        c.fillStyle = `rgb(${map[x][y].rgb})`;
+        c.fillStyle = `rgb(${map[x][y].color})`;
         c.fillRect(x*SIZE, y*SIZE, SIZE, SIZE);
       }
     }

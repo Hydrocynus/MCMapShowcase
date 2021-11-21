@@ -7,24 +7,14 @@
   <script src="lib/pako.min.js"></script>
   <script src="lib/nbt.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
-
-  <!-- <script src="old/main.js"></script> -->
-
-  <script src="js/Exception.js"></script>
-
-  <script src="js/CustomError.js"></script>
-  <script src="js/NBTParser.js"></script>
-  <script src="js/Colors.js"></script>
-  <script src="js/Pixel.js"></script>
-  <script src="js/MCMap.js"></script>
-  <script src="js/MapManager.js"></script>
-
-  <script src="js/Test.js"></script>
+  <script src="old/main.js"></script>
   <style>svg{transform: rotate(-90deg) scaleX(-1);}</style>
   <title>MC Map To image</title>
 </head>
 <body>
-  <input type="file" id="input" onchange="onFileInput(this)">
+  Pointing at: <span id="lookingAt" style="height:3em;display:block"></span>
+  <br>
+  <input type="file" id="input" onchange="fileChange(this)">
   <canvas></canvas>
 </body>
 </html> 

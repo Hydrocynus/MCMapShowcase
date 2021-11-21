@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/d3": "^7.1.0",
+    "@types/pako": "^1.0.2"
+  }
+}
