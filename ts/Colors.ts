@@ -1,8 +1,7 @@
 /**
- *
- *
- * @author Tobias
- * @date 20.11.2021
+ * Properties of a MC map color.
+ * @author Hydrocynus
+ * @date 20/11/2021
  * @interface colorInfo
  */
 interface colorInfo {
@@ -12,19 +11,17 @@ interface colorInfo {
 }
 
 /**
- *
- *
- * @author Tobias
- * @version 21.11.2021
- * @since 20.11.2021
+ * provides information to MC map colors.
+ * @author Hydrocynus
+ * @version 21/11/2021
+ * @since 20/11/2021
  * @class Colors
  */
 class Colors {
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * Stores color properties to every color id.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @static
    * @type {Map<number, colorInfo>}
@@ -33,10 +30,9 @@ class Colors {
   private static colorMap: Map<number, colorInfo>;
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * path to config file.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @static
    * @type {string}
@@ -45,10 +41,9 @@ class Colors {
   private static url: string = "config/mcmapcolorids.json";
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * returns all color properties.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @static
    * @returns {Promise<Map<number, colorInfo>>}
    * @memberof Colors
@@ -59,11 +54,10 @@ class Colors {
   }
 
   /**
-   *
-   *
-   * @author Tobias
-   * @version 21.11.2021 (Implemented CustomError)
-   * @since 20.11.2021
+   * returns color properties of a id.
+   * @author Hydrocynus
+   * @version 21/11/2021 (Implemented CustomError)
+   * @since 20/11/2021
    * @static
    * @param {number} id
    * @returns {Promise<colorInfo>}
@@ -77,10 +71,9 @@ class Colors {
   }
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * loads color properties from config file.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @static
    * @returns {Promise<Map<number, colorInfo>>}

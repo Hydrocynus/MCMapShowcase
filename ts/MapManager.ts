@@ -1,16 +1,14 @@
 /**
- *
- *
- * @author Tobias
- * @date 21.11.2021
+ * Stores and indexes all maps.
+ * @author Hydrocynus
+ * @date 21/11/2021
  * @class MapManager
  */
 class MapManager {
   /**
-   *
-   *
-   * @author Tobias
-   * @date 21.11.2021
+   * Notes which version of a perticular map is currently selected.
+   * @author Hydrocynus
+   * @date 21/11/2021
    * @private
    * @type {Map<number, MCMap>}
    * @memberof MapManager
@@ -18,10 +16,9 @@ class MapManager {
   private curMaps: Map<number, MCMap>;
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 21.11.2021
+   * Groups maps with the same coordinates together and assigns an ID to each.
+   * @author Hydrocynus
+   * @date 21/11/2021
    * @private
    * @type {Map<MCMap, number>}
    * @memberof MapManager
@@ -29,10 +26,9 @@ class MapManager {
   private allMaps: Map<MCMap, number>;
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 21.11.2021
+   * Provides next available id.
+   * @author Hydrocynus
+   * @date 21/11/2021
    * @private
    * @type {number}
    * @memberof MapManager
@@ -41,8 +37,8 @@ class MapManager {
 
   /**
    * Creates an instance of MapManager.
-   * @author Tobias
-   * @date 21.11.2021
+   * @author Hydrocynus
+   * @date 21/11/2021
    * @memberof MapManager
    */
   constructor () {
@@ -51,10 +47,9 @@ class MapManager {
   }
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 21.11.2021
+   * Adds a new map to the MapManager.
+   * @author Hydrocynus
+   * @date 21/11/2021
    * @param {MCMap} map
    * @returns {this}
    * @memberof MapManager
@@ -86,10 +81,9 @@ class MapManager {
   }
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 21.11.2021
+   * Removes an existing map from the MapManager.
+   * @author Hydrocynus
+   * @date 21/11/2021
    * @param {MCMap} map
    * @returns {this}
    * @memberof MapManager
@@ -110,6 +104,18 @@ class MapManager {
       }
     }
     console.debug("remove: allMaps | curMaps", this.allMaps, this.curMaps);
+    return this;
+  }
+
+  /**
+   * Selects a perticular map of a group.
+   * @author Hydrocynus
+   * @date 27/11/2021
+   * @param {MCMap} map
+   * @returns {this}
+   * @memberof MapManager
+   */
+  select (map: MCMap): this {
     return this;
   }
 }

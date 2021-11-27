@@ -1,16 +1,14 @@
 /**
- *
- *
- * @author Tobias
- * @date 20.11.2021
+ * A MC Map Pixel
+ * @author Hydrocynus
+ * @date 20/11/2021
  * @class Pixel
  */
 class Pixel {
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * Provides the default color value.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @static
    * @type {string}
@@ -19,20 +17,18 @@ class Pixel {
   private static defaultColor: string = "Transparent";
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * Stores the color of the pixel as RGB value "R, G, B".
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @type {string}
    * @memberof Pixel
    */
   public color: string;
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * Stores a tooltip for the pixel.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @type {string}
    * @memberof Pixel
    */
@@ -40,8 +36,8 @@ class Pixel {
 
   /**
    * Creates an instance of Pixel.
-   * @author Tobias
-   * @date 20.11.2021
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @param {string} [color=Pixel.defaultColor]
    * @param {string} [tooltip=""]
    * @memberof Pixel
@@ -52,12 +48,11 @@ class Pixel {
   }
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * Returns a new pixel object based on the color information of an id.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @static
-   * @param {number} id
+   * @param {number} id Color ID. (See class Colors).
    * @returns {Promise<Pixel>}
    * @memberof Pixel
    */

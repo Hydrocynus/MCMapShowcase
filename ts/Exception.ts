@@ -1,8 +1,7 @@
 /**
- *
- *
- * @author Tobias
- * @date 21.11.2021
+ * Fixed Exception names.
+ * @author Hydrocynus
+ * @date 21/11/2021
  * @enum {number}
  */
 enum Exception {

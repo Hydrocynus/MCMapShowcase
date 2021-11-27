@@ -9,23 +9,21 @@ declare var nbt: {
 }
 
 /**
- *
- *
- * @author Tobias
- * @date 20.11.2021
+ * Generic header of a NBT-Tag.
+ * @author Hydrocynus
+ * @date 20/11/2021
  * @interface NBTTag
- * @template T
+ * @template T The actual data type depends on the type attribute of the NBT-Tag.
  */
- interface NBTTag<T> {
+interface NBTTag<T> {
   type:  string,
   value: T
 }
 
 /**
- *
- *
- * @author Tobias
- * @date 21.11.2021
+ * Generic structure of NBT data.
+ * @author Hydrocynus
+ * @date 21/11/2021
  * @interface NBTData
  */
 interface NBTData {
@@ -33,11 +31,10 @@ interface NBTData {
 }
 
 /**
- *
- *
- * @author Tobias
- * @version 21.11.2021 (Replaced template type for value with NBTData)
- * @since 20.11.2021
+ * Header of NBT data.
+ * @author Hydrocynus
+ * @version 21/11/2021 (Replaced template type for value with NBTData)
+ * @since 20/11/2021
  * @interface NBTResult
  */
 interface NBTResult {
@@ -46,20 +43,18 @@ interface NBTResult {
 }
 
 /**
- *
- *
- * @author Tobias
- * @since 20.11.2021
- * @version 21.11.2021
+ * Parses NBT data.
+ * @author Hydrocynus
+ * @since 20/11/2021
+ * @version 21/11/2021
  * @class NBTParser
  */
 class NBTParser {
   /**
-   *
-   *
-   * @author Tobias
-   * @version 21.11.2021
-   * @since 20.11.2021
+   * Returns an object of the NBT data provided as a byte array.
+   * @author Hydrocynus
+   * @version 21/11/2021
+   * @since 20/11/2021
    * @static
    * @param {Uint8Array} data
    * @returns {Promise<NBTResult>}

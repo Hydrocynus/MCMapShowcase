@@ -1,8 +1,7 @@
 /**
- *
- *
- * @author Tobias
- * @date 20.11.2021
+ * MC map coordinates.
+ * @author Hydrocynus
+ * @date 20/11/2021
  * @interface NBTMapPos
  */
 interface NBTMapPos {
@@ -12,10 +11,9 @@ interface NBTMapPos {
 }
 
 /**
- *
- *
- * @author Tobias
- * @date 20.11.2021
+ * MC map banner info.
+ * @author Hydrocynus
+ * @date 20/11/2021
  * @interface NBTMapBanner
  */
 interface NBTMapBanner {
@@ -25,10 +23,9 @@ interface NBTMapBanner {
 }
 
 /**
- *
- *
- * @author Tobias
- * @date 20.11.2021
+ * MC map frame info.
+ * @author Hydrocynus
+ * @date 20/11/2021
  * @interface NBTMapFrame
  */
 interface NBTMapFrame {
@@ -38,10 +35,9 @@ interface NBTMapFrame {
 }
 
 /**
- *
- *
- * @author Tobias
- * @date 21.11.2021
+ * All possible and partly required information of a MC map.
+ * @author Hydrocynus
+ * @date 21/11/2021
  * @interface NBTMapData
  * @extends {NBTData}
  */
@@ -62,11 +58,10 @@ interface NBTMapData extends NBTData {
 }
 
 /**
- *
- *
- * @author Tobias
- * @version 21.11.2021 (Outsourced NBTMapData for attribute value)
- * @since 20.11.2021
+ * Header of a MC map.
+ * @author Hydrocynus
+ * @version 21/11/2021 (Outsourced NBTMapData for attribute value)
+ * @since 20/11/2021
  * @interface NBTMap
  */
 interface NBTMap {
@@ -75,28 +70,16 @@ interface NBTMap {
 }
 
 /**
- *
- *
- * @author Tobias
- * @date 20.11.2021
+ * Representation of a MC map.
+ * @author Hydrocynus
+ * @date 20/11/2021
  * @class MCMap
  */
 class MCMap {
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
-   * @private
-   * @type {Pixel[][]}
-   * @memberof MCMap
-   */
-
-  /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * The array with all pixels of the map.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @type {Pixel[][]}
    * @memberof MCMap
@@ -104,10 +87,9 @@ class MCMap {
   pixels: Pixel[][];
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * Size of the map.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @type {number}
    * @memberof MCMap
@@ -115,10 +97,9 @@ class MCMap {
   size: number;
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * X-center coordinate of the map.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @type {number}
    * @memberof MCMap
@@ -126,10 +107,9 @@ class MCMap {
   xCenter: number;
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * Z-center coordinate of the map.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @type {number}
    * @memberof MCMap
@@ -137,10 +117,9 @@ class MCMap {
   zCenter: number;
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * All information in one object.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @private
    * @type {object}
    * @memberof MCMap
@@ -149,8 +128,8 @@ class MCMap {
 
   /**
    * Creates an instance of MCMap.
-   * @author Tobias
-   * @date 20.11.2021
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @param {Pixel[][]} pixels
    * @param {number} size
    * @param {number} xCenter
@@ -167,12 +146,11 @@ class MCMap {
   }
 
   /**
-   *
-   *
-   * @author Tobias
-   * @date 20.11.2021
+   * Returns a new MC map object from parsed NBT data.
+   * @author Hydrocynus
+   * @date 20/11/2021
    * @static
-   * @param {NBTMap} map
+   * @param {NBTMap} map NBT data as parsed object.
    * @returns {Promise<MCMap>}
    * @memberof MCMap
    */

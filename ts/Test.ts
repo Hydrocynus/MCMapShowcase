@@ -1,8 +1,6 @@
 /**
- *
- *
- * @author Tobias
- * @date 21.11.2021
+ * @author Hydrocynus
+ * @date 21/11/2021
  * @param {HTMLInputElement} input
  */
 async function onFileInput(input: HTMLInputElement) {
@@ -20,12 +18,10 @@ async function onFileInput(input: HTMLInputElement) {
 }
 
 /**
- *
- *
- * @author Tobias
- * @date 21.11.2021
+ * @author Hydrocynus
+ * @date 21/11/2021
  * @param {File} file
- * @returns {*}  {Promise<Uint8Array>}
+ * @returns {Promise<Uint8Array>}
  */
 async function loadMapData(file: File): Promise<Uint8Array> {
   const buffer  = await file.arrayBuffer();
@@ -35,10 +31,8 @@ async function loadMapData(file: File): Promise<Uint8Array> {
 }
 
 /**
- *
- *
- * @author Tobias
- * @date 21.11.2021
+ * @author Hydrocynus
+ * @date 21/11/2021
  * @param {MCMap} map
  */
 function drawMap(map: MCMap) {
