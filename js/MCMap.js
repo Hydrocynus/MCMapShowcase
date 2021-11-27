@@ -9,17 +9,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 /**
- *
- *
- * @author Tobias
- * @date 20.11.2021
+ * Representation of a MC map.
+ * @author Hydrocynus
+ * @date 20/11/2021
  * @class MCMap
  */
 class MCMap {
     /**
      * Creates an instance of MCMap.
-     * @author Tobias
-     * @date 20.11.2021
+     * @author Hydrocynus
+     * @date 20/11/2021
      * @param {Pixel[][]} pixels
      * @param {number} size
      * @param {number} xCenter
@@ -35,12 +34,11 @@ class MCMap {
         this.raw = raw;
     }
     /**
-     *
-     *
-     * @author Tobias
-     * @date 20.11.2021
+     * Returns a new MC map object from parsed NBT data.
+     * @author Hydrocynus
+     * @date 20/11/2021
      * @static
-     * @param {NBTMap} map
+     * @param {NBTMap} map NBT data as parsed object.
      * @returns {Promise<MCMap>}
      * @memberof MCMap
      */

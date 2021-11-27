@@ -8,6 +8,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+/**
+ * @author Hydrocynus
+ * @version 27/11/2021
+ * @since 21/11/2021
+ * @param {HTMLInputElement} input
+ */
 function onFileInput(input) {
     return __awaiter(this, void 0, void 0, function* () {
         if (!input)
@@ -20,11 +26,14 @@ function onFileInput(input) {
         const objMap = yield NBTParser.parse(nbtMap);
         const mcMap = yield MCMap.fromNBTData(objMap);
         drawMap(mcMap);
-        const mapManager = new MapManager;
-        mapManager.add(mcMap);
-        mapManager.remove(mcMap);
     });
 }
+/**
+ * @author Hydrocynus
+ * @date 21/11/2021
+ * @param {File} file
+ * @returns {Promise<Uint8Array>}
+ */
 function loadMapData(file) {
     return __awaiter(this, void 0, void 0, function* () {
         const buffer = yield file.arrayBuffer();
@@ -33,6 +42,11 @@ function loadMapData(file) {
         return mapdata;
     });
 }
+/**
+ * @author Hydrocynus
+ * @date 21/11/2021
+ * @param {MCMap} map
+ */
 function drawMap(map) {
     const SIZE = 8;
     const pixels = map.pixels;

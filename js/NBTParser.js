@@ -9,20 +9,18 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 /**
- *
- *
- * @author Tobias
- * @since 20.11.2021
- * @version 21.11.2021
+ * Parses NBT data.
+ * @author Hydrocynus
+ * @since 20/11/2021
+ * @version 21/11/2021
  * @class NBTParser
  */
 class NBTParser {
     /**
-     *
-     *
-     * @author Tobias
-     * @since 20.11.2021
-     * @version 21.11.2021
+     * Returns an object of the NBT data provided as a byte array.
+     * @author Hydrocynus
+     * @version 21/11/2021
+     * @since 20/11/2021
      * @static
      * @param {Uint8Array} data
      * @returns {Promise<NBTResult>}
