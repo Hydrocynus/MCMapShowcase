@@ -1,6 +1,7 @@
 /**
  * @author Hydrocynus
- * @date 21/11/2021
+ * @version 27/11/2021
+ * @since 21/11/2021
  * @param {HTMLInputElement} input
  */
 async function onFileInput(input: HTMLInputElement) {
@@ -12,9 +13,6 @@ async function onFileInput(input: HTMLInputElement) {
   const objMap = await NBTParser.parse(nbtMap);
   const mcMap  = await MCMap.fromNBTData(objMap);
   drawMap(mcMap);
-  const mapManager = new MapManager;
-  mapManager.add(mcMap);
-  mapManager.remove(mcMap);
 }
 
 /**

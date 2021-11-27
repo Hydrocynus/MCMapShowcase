@@ -1,7 +1,8 @@
 /**
  * Stores and indexes all maps.
  * @author Hydrocynus
- * @date 21/11/2021
+ * @version 27/11/2021
+ * @since 21/11/2021
  * @class MapManager
  */
 class MapManager {
@@ -49,73 +50,63 @@ class MapManager {
   /**
    * Adds a new map to the MapManager.
    * @author Hydrocynus
-   * @date 21/11/2021
+   * @version 27/11/2021 (simplified)
+   * @since 21/11/2021
    * @param {MCMap} map
    * @returns {this}
    * @memberof MapManager
    */
   add (map: MCMap): this {
-    console.debug("add: allMaps | curMaps", this.allMaps, this.curMaps);
     let idToAddTo: number | undefined;
-    this.allMaps.forEach((v,k) => {
-      if (k.xCenter === map.xCenter && k.zCenter === map.zCenter) idToAddTo = v;
-    });
+    for (let n of this.allMaps) {
+      if (n[0].xCenter !== map.xCenter || n[0].zCenter !== map.zCenter) continue;
+      idToAddTo = n[1];
+      break;
+    }
     if (idToAddTo === undefined) {
-      idToAddTo = this.nextID;
-      this.nextID++;
-      console.debug("adding map with new ID " + idToAddTo);
-      this.allMaps.set(map, idToAddTo);
+      idToAddTo = this.nextID++;
       this.curMaps.set(idToAddTo, map);
-    } else {
-      console.debug("adding map to ID " + idToAddTo);
-      this.allMaps.set(map, idToAddTo);
     }
-
-    console.debug("values", [...this.allMaps.values()])
-    for (let id in [...this.allMaps.values()]) {
-      console.debug("searching id", id, typeof id);
-    }
-
-    console.debug("add: allMaps | curMaps", this.allMaps, this.curMaps);
+    this.allMaps.set(map, idToAddTo);
     return this;
   }
 
   /**
    * Removes an existing map from the MapManager.
    * @author Hydrocynus
-   * @date 21/11/2021
+   * @version 27/11/2021
+   * @since 21/11/2021
    * @param {MCMap} map
    * @returns {this}
    * @memberof MapManager
    */
   remove (map: MCMap): this {
-    console.debug("remove: allMaps | curMaps", this.allMaps, this.curMaps);
-    const deletedID = this.allMaps.get(map);
-    console.debug("deletedID", deletedID);
-    if (deletedID) console.debug("cur?", this.curMaps.get(deletedID));
+    const idToDeleteFrom = this.allMaps.get(map);
+    if (idToDeleteFrom === undefined) return this;
     this.allMaps.delete(map);
-    if (deletedID && this.curMaps.get(deletedID) === map) {
-      console.debug("removed map was current of ID " + deletedID);
-      for (let id in [...this.allMaps.values()]) {
-        console.debug("searching id", id, typeof id);
-        if (id == deletedID + "") {
-          // TODO: curMap neu zuordnen
-        }
-      }
+    if (this.curMaps.get(idToDeleteFrom) !== map) return this;
+    for (let n of this.allMaps) {
+      if (n[1] !== idToDeleteFrom) continue;
+      this.curMaps.set(idToDeleteFrom, n[0]);
+      break;
     }
-    console.debug("remove: allMaps | curMaps", this.allMaps, this.curMaps);
+    if (this.curMaps.get(idToDeleteFrom) === map) this.curMaps.delete(idToDeleteFrom);
     return this;
   }
 
   /**
-   * Selects a perticular map of a group.
+   * Selects a perticular map of an id group as current.
    * @author Hydrocynus
    * @date 27/11/2021
    * @param {MCMap} map
    * @returns {this}
    * @memberof MapManager
+   * @throws {MapNotFoundException}
    */
   select (map: MCMap): this {
+    const id = this.allMaps.get(map);
+    if (id === undefined) throw new CustomError(Exception.MapNotFound, "A map must first be added to be selected");
+    this.curMaps.set(id, map);
     return this;
   }
 }

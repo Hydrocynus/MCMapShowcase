@@ -1,7 +1,8 @@
 /**
  * Fixed Exception names.
  * @author Hydrocynus
- * @date 21/11/2021
+ * @version 27/11/2021
+ * @since 21/11/2021
  * @enum {number}
  */
 enum Exception {
@@ -10,4 +11,5 @@ enum Exception {
   ElementNotFound = "ElementNotFoundException",
   EmptyFileInput  = "EmptyFileInputException",
   CanvasNoContext = "CanvasNoContextException",
+  MapNotFound     = "MapNotFoundException",
 }
