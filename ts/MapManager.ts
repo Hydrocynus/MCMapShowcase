@@ -26,6 +26,15 @@ class MapManager {
    */
   private allMaps: Map<MCMap, number>;
 
+  private mapGrid: MCMap[][] = [];
+
+  private gridNeedsUpdate: boolean = false;
+
+  get grid (): MCMap[][] {
+    if (this.gridNeedsUpdate) { console.debug("mapGrid needs update"); this.updateGrid(); }
+    return this.mapGrid;
+  }
+
   /**
    * Provides next available id.
    * @author Hydrocynus
@@ -57,6 +66,7 @@ class MapManager {
    * @memberof MapManager
    */
   add (map: MCMap): this {
+    this.gridNeedsUpdate = true;
     let idToAddTo: number | undefined;
     for (let n of this.allMaps) {
       if (n[0].xCenter !== map.xCenter || n[0].zCenter !== map.zCenter) continue;
@@ -83,6 +93,7 @@ class MapManager {
   remove (map: MCMap): this {
     const idToDeleteFrom = this.allMaps.get(map);
     if (idToDeleteFrom === undefined) return this;
+    this.gridNeedsUpdate = true;
     this.allMaps.delete(map);
     if (this.curMaps.get(idToDeleteFrom) !== map) return this;
     for (let n of this.allMaps) {
@@ -92,6 +103,21 @@ class MapManager {
     }
     if (this.curMaps.get(idToDeleteFrom) === map) this.curMaps.delete(idToDeleteFrom);
     return this;
+  }
+
+  private updateGrid () {
+    // console.debug("update", this.curMaps);
+    for (let map of this.curMaps) {
+      const x = map[1].xCenter / map[1].size;
+      const z = map[1].zCenter / map[1].size;
+      console.debug("Map", ...map, "at x", x, "and z", z);
+      this.addToGrid(x,z,map[1]);
+    }
+  }
+
+  private addToGrid (x: number, z: number, map: MCMap) {
+    if (this.mapGrid[x] === undefined) this.mapGrid[x] = [];
+    this.mapGrid[x][z] = map;
   }
 
   /**
@@ -106,7 +132,46 @@ class MapManager {
   select (map: MCMap): this {
     const id = this.allMaps.get(map);
     if (id === undefined) throw new CustomError(Exception.MapNotFound, "A map must first be added to be selected");
+    this.gridNeedsUpdate = true;
     this.curMaps.set(id, map);
     return this;
+  }
+
+  /**
+   * Returns an array of all stored maps.
+   * @author Hydrocynus
+   * @date 28/11/2021
+   * @returns {MCMap[]}
+   * @memberof MapManager
+   */
+  getAll (): MCMap[] {
+    return [...this.allMaps.keys()];
+  }
+
+  /**
+   * Returns an array of all selected maps.
+   * @author Hydrocynus
+   * @date 27/11/2021
+   * @returns {MCMap[]}
+   * @memberof MapManager
+   */
+  getAllCurrent (): MCMap[] {
+    return [...this.curMaps.values()];
+  }
+
+  /**
+   * Returns the selected version of the passed map.
+   * @author Hydrocynus
+   * @date 28/11/2021
+   * @param {MCMap} map MCMap to find the current selected version of.
+   * @returns {MCMap} 
+   * @memberof MapManager
+   */
+  getCurrentOf (map: MCMap): MCMap {
+    const id = this.allMaps.get(map);
+    if (id === undefined) throw new CustomError(Exception.MapNotFound, "The searched card has not been added yet");
+    const curMap = this.curMaps.get(id);
+    if (curMap === undefined) throw new CustomError(Exception.MapNotFound, "No current version has been selected yet for the transferred map");
+    return curMap;
   }
 }

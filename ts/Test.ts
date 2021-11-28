@@ -1,6 +1,6 @@
 /**
  * @author Hydrocynus
- * @version 27/11/2021
+ * @version 28/11/2021
  * @since 21/11/2021
  * @param {HTMLInputElement} input
  */
@@ -8,11 +8,19 @@ async function onFileInput(input: HTMLInputElement) {
   if (!input) throw new CustomError(Exception.ElementNotFound, "The map input field was not passed on input");
   if (!input.files) throw new CustomError(Exception.EmptyFileInput, "The file input is empty - no files were selected");
   const files  = input.files;
-  const file   = files[0];
-  const nbtMap = await loadMapData(file);
-  const objMap = await NBTParser.parse(nbtMap);
-  const mcMap  = await MCMap.fromNBTData(objMap);
-  drawMap(mcMap);
+  const mapManager = new MapManager;
+  for (let file of files) {
+    const nbtMap = await loadMapData(file);
+    console.debug("nbtMap", nbtMap);
+    const objMap = await NBTParser.parse(nbtMap);
+    console.debug("objMap", objMap);
+    const mcMap  = await MCMap.fromNBTData(objMap);
+    mapManager.add(mcMap);
+    drawMap(mcMap);
+  }
+  console.debug("AllMaps", mapManager.getAll());
+  console.debug("Current", mapManager.getAllCurrent());
+  console.debug("Grid", mapManager.grid);
 }
 
 /**

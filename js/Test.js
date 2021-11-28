@@ -21,11 +21,20 @@ function onFileInput(input) {
         if (!input.files)
             throw new CustomError(Exception.EmptyFileInput, "The file input is empty - no files were selected");
         const files = input.files;
-        const file = files[0];
-        const nbtMap = yield loadMapData(file);
-        const objMap = yield NBTParser.parse(nbtMap);
-        const mcMap = yield MCMap.fromNBTData(objMap);
-        drawMap(mcMap);
+        const mapManager = new MapManager;
+        for (let file of files) {
+            const nbtMap = yield loadMapData(file);
+            console.debug("nbtMap", nbtMap);
+            const objMap = yield NBTParser.parse(nbtMap);
+            console.debug("objMap", objMap);
+            const mcMap = yield MCMap.fromNBTData(objMap);
+            mapManager.add(mcMap);
+            drawMap(mcMap);
+        }
+        console.debug("AllMaps", mapManager.getAll());
+        console.debug("Current", mapManager.getAllCurrent());
+        console.debug("Grid", mapManager.grid);
+        window.grid = mapManager.grid;
     });
 }
 /**

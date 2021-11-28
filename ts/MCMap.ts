@@ -72,7 +72,8 @@ interface NBTMap {
 /**
  * Representation of a MC map.
  * @author Hydrocynus
- * @date 20/11/2021
+ * @version 28/11/2021
+ * @since 20/11/2021
  * @class MCMap
  */
 class MCMap {
@@ -148,7 +149,8 @@ class MCMap {
   /**
    * Returns a new MC map object from parsed NBT data.
    * @author Hydrocynus
-   * @date 20/11/2021
+   * @version 28/11/2021 (Added conversion from signed int to unsigned int for the ID of the map.)
+   * @since 20/11/2021
    * @static
    * @param {NBTMap} map NBT data as parsed object.
    * @returns {Promise<MCMap>}
@@ -165,7 +167,9 @@ class MCMap {
     for (let x=0; x<size; x++) {
       pixels2D.push([]);
       for (let y=0; y<size; y++) {
-        const pixel = await Pixel.fromID(pixels1D[x+y*size]);
+        let id = pixels1D[x+y*size];
+        if (id < 0) id += 256;
+        const pixel = await Pixel.fromID(id);
         pixels2D[x].push(pixel);
       }
     }

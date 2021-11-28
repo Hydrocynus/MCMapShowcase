@@ -44,7 +44,7 @@ class Pixel {
             }
             catch (e) {
                 console.error(e);
-                return new Pixel("255, 0, 0", `Error (${e})`);
+                return new Pixel("255, 0, 255", `Error (${e})`);
             }
         });
     }

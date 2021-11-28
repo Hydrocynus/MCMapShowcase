@@ -1,13 +1,15 @@
 /**
  * Properties of a MC map color.
  * @author Hydrocynus
- * @date 20/11/2021
+ * @version 28/11/2021 (Added obligatory attribute Name.)
+ * @since 20/11/2021
  * @interface colorInfo
  */
 interface colorInfo {
   ID: number,
   RGB: string,
-  Blocks: string
+  Blocks: string,
+  Name?: string,
 }
 
 /**

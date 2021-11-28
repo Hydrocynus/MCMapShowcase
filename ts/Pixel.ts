@@ -1,7 +1,8 @@
 /**
  * A MC Map Pixel
  * @author Hydrocynus
- * @date 20/11/2021
+ * @version 28/11/2021
+ * @since 20/11/2021
  * @class Pixel
  */
 class Pixel {
@@ -50,7 +51,8 @@ class Pixel {
   /**
    * Returns a new pixel object based on the color information of an id.
    * @author Hydrocynus
-   * @date 20/11/2021
+   * @version 28/11/2021 (Changed color of unknown IDs to magenta.)
+   * @since 20/11/2021
    * @static
    * @param {number} id Color ID. (See class Colors).
    * @returns {Promise<Pixel>}
@@ -62,7 +64,7 @@ class Pixel {
       return new Pixel(color.RGB, color.Blocks);
     } catch (e) {
       console.error(e);
-      return new Pixel("255, 0, 0", `Error (${e})`);
+      return new Pixel("255, 0, 255", `Error (${e})`);
     }
   }
 }
