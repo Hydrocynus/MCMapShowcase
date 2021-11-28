@@ -11,7 +11,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 /**
  * A MC Map Pixel
  * @author Hydrocynus
- * @date 20/11/2021
+ * @version 28/11/2021
+ * @since 20/11/2021
  * @class Pixel
  */
 class Pixel {
@@ -30,7 +31,8 @@ class Pixel {
     /**
      * Returns a new pixel object based on the color information of an id.
      * @author Hydrocynus
-     * @date 20/11/2021
+     * @version 28/11/2021 (Changed color of unknown IDs to magenta.)
+     * @since 20/11/2021
      * @static
      * @param {number} id Color ID. (See class Colors).
      * @returns {Promise<Pixel>}

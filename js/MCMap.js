@@ -11,7 +11,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 /**
  * Representation of a MC map.
  * @author Hydrocynus
- * @date 20/11/2021
+ * @version 28/11/2021
+ * @since 20/11/2021
  * @class MCMap
  */
 class MCMap {
@@ -36,7 +37,8 @@ class MCMap {
     /**
      * Returns a new MC map object from parsed NBT data.
      * @author Hydrocynus
-     * @date 20/11/2021
+     * @version 28/11/2021 (Added conversion from signed int to unsigned int for the ID of the map.)
+     * @since 20/11/2021
      * @static
      * @param {NBTMap} map NBT data as parsed object.
      * @returns {Promise<MCMap>}

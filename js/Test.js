@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 /**
  * @author Hydrocynus
- * @version 27/11/2021
+ * @version 28/11/2021
  * @since 21/11/2021
  * @param {HTMLInputElement} input
  */
@@ -34,7 +34,6 @@ function onFileInput(input) {
         console.debug("AllMaps", mapManager.getAll());
         console.debug("Current", mapManager.getAllCurrent());
         console.debug("Grid", mapManager.grid);
-        window.grid = mapManager.grid;
     });
 }
 /**

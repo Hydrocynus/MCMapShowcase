@@ -90,8 +90,8 @@ class MapManager {
     updateGrid() {
         // console.debug("update", this.curMaps);
         for (let map of this.curMaps) {
-            const x = map[1].xCenter / map[1].size - 1;
-            const z = map[1].zCenter / map[1].size - 1;
+            const x = map[1].xCenter / map[1].size;
+            const z = map[1].zCenter / map[1].size;
             console.debug("Map", ...map, "at x", x, "and z", z);
             this.addToGrid(x, z, map[1]);
         }
