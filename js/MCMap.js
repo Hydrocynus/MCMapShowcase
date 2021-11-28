@@ -53,7 +53,10 @@ class MCMap {
             for (let x = 0; x < size; x++) {
                 pixels2D.push([]);
                 for (let y = 0; y < size; y++) {
-                    const pixel = yield Pixel.fromID(pixels1D[x + y * size]);
+                    let id = pixels1D[x + y * size];
+                    if (id < 0)
+                        id += 256;
+                    const pixel = yield Pixel.fromID(id);
                     pixels2D[x].push(pixel);
                 }
             }
