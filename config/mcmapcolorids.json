@@ -1,1042 +1,1490 @@
 [
- {
-   "ID": 0,
-   "RGB": "Transparent",
-   "Blocks": "Unexplored"
- },
- {
-   "ID": 1,
-   "RGB": "Transparent",
-   "Blocks": "Unexplored"
- },
- {
-   "ID": 2,
-   "RGB": "Transparent",
-   "Blocks": "Unexplored"
- },
- {
-   "ID": 3,
-   "RGB": "Transparent",
-   "Blocks": "Unexplored"
- },
- {
-   "ID": 4,
-   "RGB": "89, 125, 39",
-   "Blocks": "Grass Block, Slime Block"
- },
- {
-   "ID": 5,
-   "RGB": "109, 153, 48",
-   "Blocks": "Grass Block, Slime Block"
- },
- {
-   "ID": 6,
-   "RGB": "127, 178, 56",
-   "Blocks": "Grass Block, Slime Block"
- },
- {
-   "ID": 7,
-   "RGB": "67, 94, 29",
-   "Blocks": "Grass Block, Slime Block"
- },
- {
-   "ID": 8,
-   "RGB": "174, 164, 115",
-   "Blocks": "Sand, Sandstone (plain, Smooth, Chiseled, Stairs, Slab), Birch Wood (vertical Log, Planks, Stairs, Slab), Mushroom Block with pores texture facing up, Bone Block, Glowstone, End Stone, End Stone Bricks, Birch Wood (Door, Fence, Fence Gate)"
- },
- {
-   "ID": 9,
-   "RGB": "213, 201, 140",
-   "Blocks": "Sand, Sandstone (plain, Smooth, Chiseled, Stairs, Slab), Birch Wood (vertical Log, Planks, Stairs, Slab), Mushroom Block with pores texture facing up, Bone Block, Glowstone, End Stone, End Stone Bricks, Birch Wood (Door, Fence, Fence Gate)"
- },
- {
-   "ID": 10,
-   "RGB": "247, 233, 163",
-   "Blocks": "Sand, Sandstone (plain, Smooth, Chiseled, Stairs, Slab), Birch Wood (vertical Log, Planks, Stairs, Slab), Mushroom Block with pores texture facing up, Bone Block, Glowstone, End Stone, End Stone Bricks, Birch Wood (Door, Fence, Fence Gate)"
- },
- {
-   "ID": 11,
-   "RGB": "130, 123, 86",
-   "Blocks": "Sand, Sandstone (plain, Smooth, Chiseled, Stairs, Slab), Birch Wood (vertical Log, Planks, Stairs, Slab), Mushroom Block with pores texture facing up, Bone Block, Glowstone, End Stone, End Stone Bricks, Birch Wood (Door, Fence, Fence Gate)"
- },
- {
-   "ID": 12,
-   "RGB": "140, 140, 140",
-   "Blocks": "Mushroom Block with stem texture facing up, Cobweb, Bed head"
- },
- {
-   "ID": 13,
-   "RGB": "171, 171, 171",
-   "Blocks": "Mushroom Block with stem texture facing up, Cobweb, Bed head"
- },
- {
-   "ID": 14,
-   "RGB": "199, 199, 199",
-   "Blocks": "Mushroom Block with stem texture facing up, Cobweb, Bed head"
- },
- {
-   "ID": 15,
-   "RGB": "105, 105, 105",
-   "Blocks": "Mushroom Block with stem texture facing up, Cobweb, Bed head"
- },
- {
-   "ID": 16,
-   "RGB": "180, 0, 0",
-   "Blocks": "TNT, Block of Redstone, Lava, Fire"
- },
- {
-   "ID": 17,
-   "RGB": "220, 0, 0",
-   "Blocks": "TNT, Block of Redstone, Lava, Fire"
- },
- {
-   "ID": 18,
-   "RGB": "255, 0, 0",
-   "Blocks": "TNT, Block of Redstone, Lava, Fire"
- },
- {
-   "ID": 19,
-   "RGB": "135, 0, 0",
-   "Blocks": "TNT, Block of Redstone, Lava, Fire"
- },
- {
-   "ID": 20,
-   "RGB": "112, 112, 180",
-   "Blocks": "Ice, Frosted Ice, Packed Ice"
- },
- {
-   "ID": 21,
-   "RGB": "138, 138, 220",
-   "Blocks": "Ice, Frosted Ice, Packed Ice"
- },
- {
-   "ID": 22,
-   "RGB": "160, 160, 255",
-   "Blocks": "Ice, Frosted Ice, Packed Ice"
- },
- {
-   "ID": 23,
-   "RGB": "84, 84, 135",
-   "Blocks": "Ice, Frosted Ice, Packed Ice"
- },
- {
-   "ID": 24,
-   "RGB": "117, 117, 117",
-   "Blocks": "Block of Iron, Iron Door, Iron Trapdoor, Iron Bars, Weighted Pressure Plate (Heavy), Anvil, Brewing Stand"
- },
- {
-   "ID": 25,
-   "RGB": "144, 144, 144",
-   "Blocks": "Block of Iron, Iron Door, Iron Trapdoor, Iron Bars, Weighted Pressure Plate (Heavy), Anvil, Brewing Stand"
- },
- {
-   "ID": 26,
-   "RGB": "167, 167, 167",
-   "Blocks": "Block of Iron, Iron Door, Iron Trapdoor, Iron Bars, Weighted Pressure Plate (Heavy), Anvil, Brewing Stand"
- },
- {
-   "ID": 27,
-   "RGB": "88, 88, 88",
-   "Blocks": "Block of Iron, Iron Door, Iron Trapdoor, Iron Bars, Weighted Pressure Plate (Heavy), Anvil, Brewing Stand"
- },
- {
-   "ID": 28,
-   "RGB": "0, 87, 0",
-   "Blocks": "Leaves, Sapling, Tall Grass, Flower, Lily Pad, Wheat, Carrots, Potatoes, Beetroots, Sugar Canes, Pumpkin Stem, Melon Stem, Cactus, Vines, Cocoa, small red or brown Mushroom"
- },
- {
-   "ID": 29,
-   "RGB": "0, 106, 0",
-   "Blocks": "Leaves, Sapling, Tall Grass, Flower, Lily Pad, Wheat, Carrots, Potatoes, Beetroots, Sugar Canes, Pumpkin Stem, Melon Stem, Cactus, Vines, Cocoa, small red or brown Mushroom"
- },
- {
-   "ID": 30,
-   "RGB": "0, 124, 0",
-   "Blocks": "Leaves, Sapling, Tall Grass, Flower, Lily Pad, Wheat, Carrots, Potatoes, Beetroots, Sugar Canes, Pumpkin Stem, Melon Stem, Cactus, Vines, Cocoa, small red or brown Mushroom"
- },
- {
-   "ID": 31,
-   "RGB": "0, 65, 0",
-   "Blocks": "Leaves, Sapling, Tall Grass, Flower, Lily Pad, Wheat, Carrots, Potatoes, Beetroots, Sugar Canes, Pumpkin Stem, Melon Stem, Cactus, Vines, Cocoa, small red or brown Mushroom"
- },
- {
-   "ID": 32,
-   "RGB": "180, 180, 180",
-   "Blocks": "White Wool, Snow Block, Snow Layer, White Carpet, White Stained Glass, White Stained Glass Pane, White Bed foot, White Glazed Terracotta, White Concrete, White Concrete Powder"
- },
- {
-   "ID": 33,
-   "RGB": "220, 220, 220",
-   "Blocks": "White Wool, Snow Block, Snow Layer, White Carpet, White Stained Glass, White Stained Glass Pane, White Bed foot, White Glazed Terracotta, White Concrete, White Concrete Powder"
- },
- {
-   "ID": 34,
-   "RGB": "255, 255, 255",
-   "Blocks": "White Wool, Snow Block, Snow Layer, White Carpet, White Stained Glass, White Stained Glass Pane, White Bed foot, White Glazed Terracotta, White Concrete, White Concrete Powder"
- },
- {
-   "ID": 35,
-   "RGB": "135, 135, 135",
-   "Blocks": "White Wool, Snow Block, Snow Layer, White Carpet, White Stained Glass, White Stained Glass Pane, White Bed foot, White Glazed Terracotta, White Concrete, White Concrete Powder"
- },
- {
-   "ID": 36,
-   "RGB": "115, 118, 129",
-   "Blocks": "Clay, Infested Block (Stone, Cobblestone, Stone Brick, Mossy Stone Brick, Cracked Stone Brick, Chiseled Stone Brick)"
- },
- {
-   "ID": 37,
-   "RGB": "141, 144, 158",
-   "Blocks": "Clay, Infested Block (Stone, Cobblestone, Stone Brick, Mossy Stone Brick, Cracked Stone Brick, Chiseled Stone Brick)"
- },
- {
-   "ID": 38,
-   "RGB": "164, 168, 184",
-   "Blocks": "Clay, Infested Block (Stone, Cobblestone, Stone Brick, Mossy Stone Brick, Cracked Stone Brick, Chiseled Stone Brick)"
- },
- {
-   "ID": 39,
-   "RGB": "86, 88, 97",
-   "Blocks": "Clay, Infested Block (Stone, Cobblestone, Stone Brick, Mossy Stone Brick, Cracked Stone Brick, Chiseled Stone Brick)"
- },
- {
-   "ID": 40,
-   "RGB": "106, 76, 54",
-   "Blocks": "Jungle Wood (vertical Log, Planks, Stairs, Slab), Brown Mushroom Block with cap texture facing up, Dirt, Coarse Dirt, Jukebox, Granite (plain, Polished), Farmland, Grass Path, Jungle Wood (Door, Fence, Fence Gate)"
- },
- {
-   "ID": 41,
-   "RGB": "130, 94, 66",
-   "Blocks": "Jungle Wood (vertical Log, Planks, Stairs, Slab), Brown Mushroom Block with cap texture facing up, Dirt, Coarse Dirt, Jukebox, Granite (plain, Polished), Farmland, Grass Path, Jungle Wood (Door, Fence, Fence Gate)"
- },
- {
-   "ID": 42,
-   "RGB": "151, 109, 77",
-   "Blocks": "Jungle Wood (vertical Log, Planks, Stairs, Slab), Brown Mushroom Block with cap texture facing up, Dirt, Coarse Dirt, Jukebox, Granite (plain, Polished), Farmland, Grass Path, Jungle Wood (Door, Fence, Fence Gate)"
- },
- {
-   "ID": 43,
-   "RGB": "79, 57, 40",
-   "Blocks": "Jungle Wood (vertical Log, Planks, Stairs, Slab), Brown Mushroom Block with cap texture facing up, Dirt, Coarse Dirt, Jukebox, Granite (plain, Polished), Farmland, Grass Path, Jungle Wood (Door, Fence, Fence Gate)"
- },
- {
-   "ID": 44,
-   "RGB": "79, 79, 79",
-   "Blocks": "Cobblestone (block, Stairs, Slab), Stone (block, Slab), Stone Brick (plain, Cracked, Chiseled, Stairs, Slab), Moss Stone, Mossy Stone Bricks, Gravel, Andesite (plain, Polished), Ore (Coal, Iron, Gold, Redstone, Lapis Lazuli, Diamond, Emerald), Bedrock, Furnace, Dispenser, Dropper, Hopper, Observer, horizontal Acacia Log, Cobblestone Wall, Mossy Cobblestone Wall, Stone Pressure Plate, Cauldron, Piston and Sticky Piston (base, Head, Extension), Ender Chest, Spawner"
- },
- {
-   "ID": 45,
-   "RGB": "96, 96, 96",
-   "Blocks": "Cobblestone (block, Stairs, Slab), Stone (block, Slab), Stone Brick (plain, Cracked, Chiseled, Stairs, Slab), Moss Stone, Mossy Stone Bricks, Gravel, Andesite (plain, Polished), Ore (Coal, Iron, Gold, Redstone, Lapis Lazuli, Diamond, Emerald), Bedrock, Furnace, Dispenser, Dropper, Hopper, Observer, horizontal Acacia Log, Cobblestone Wall, Mossy Cobblestone Wall, Stone Pressure Plate, Cauldron, Piston and Sticky Piston (base, Head, Extension), Ender Chest, Spawner"
- },
- {
-   "ID": 46,
-   "RGB": "112, 112, 112",
-   "Blocks": "Cobblestone (block, Stairs, Slab), Stone (block, Slab), Stone Brick (plain, Cracked, Chiseled, Stairs, Slab), Moss Stone, Mossy Stone Bricks, Gravel, Andesite (plain, Polished), Ore (Coal, Iron, Gold, Redstone, Lapis Lazuli, Diamond, Emerald), Bedrock, Furnace, Dispenser, Dropper, Hopper, Observer, horizontal Acacia Log, Cobblestone Wall, Mossy Cobblestone Wall, Stone Pressure Plate, Cauldron, Piston and Sticky Piston (base, Head, Extension), Ender Chest, Spawner"
- },
- {
-   "ID": 47,
-   "RGB": "59, 59, 59",
-   "Blocks": "Cobblestone (block, Stairs, Slab), Stone (block, Slab), Stone Brick (plain, Cracked, Chiseled, Stairs, Slab), Moss Stone, Mossy Stone Bricks, Gravel, Andesite (plain, Polished), Ore (Coal, Iron, Gold, Redstone, Lapis Lazuli, Diamond, Emerald), Bedrock, Furnace, Dispenser, Dropper, Hopper, Observer, horizontal Acacia Log, Cobblestone Wall, Mossy Cobblestone Wall, Stone Pressure Plate, Cauldron, Piston and Sticky Piston (base, Head, Extension), Ender Chest, Spawner"
- },
- {
-   "ID": 48,
-   "RGB": "45, 45, 180",
-   "Blocks": "Water"
- },
- {
-   "ID": 49,
-   "RGB": "55, 55, 220",
-   "Blocks": "Water"
- },
- {
-   "ID": 50,
-   "RGB": "64, 64, 255",
-   "Blocks": "Water"
- },
- {
-   "ID": 51,
-   "RGB": "33, 33, 135",
-   "Blocks": "Water"
- },
- {
-   "ID": 52,
-   "RGB": "100, 84, 50",
-   "Blocks": "Oak Wood (vertical Log, Planks, Stairs, Slab), Crafting Table, Bookshelf, Note Block, Oak Wood (Door, Fence, Fence Gate), Dead Bush, Wooden Pressure Plate, Wooden Trapdoor, Sign, Chest, Trapped Chest, Banner, Daylight Sensor"
- },
- {
-   "ID": 53,
-   "RGB": "123, 102, 62",
-   "Blocks": "Oak Wood (vertical Log, Planks, Stairs, Slab), Crafting Table, Bookshelf, Note Block, Oak Wood (Door, Fence, Fence Gate), Dead Bush, Wooden Pressure Plate, Wooden Trapdoor, Sign, Chest, Trapped Chest, Banner, Daylight Sensor"
- },
- {
-   "ID": 54,
-   "RGB": "143, 119, 72",
-   "Blocks": "Oak Wood (vertical Log, Planks, Stairs, Slab), Crafting Table, Bookshelf, Note Block, Oak Wood (Door, Fence, Fence Gate), Dead Bush, Wooden Pressure Plate, Wooden Trapdoor, Sign, Chest, Trapped Chest, Banner, Daylight Sensor"
- },
- {
-   "ID": 55,
-   "RGB": "75, 63, 38",
-   "Blocks": "Oak Wood (vertical Log, Planks, Stairs, Slab), Crafting Table, Bookshelf, Note Block, Oak Wood (Door, Fence, Fence Gate), Dead Bush, Wooden Pressure Plate, Wooden Trapdoor, Sign, Chest, Trapped Chest, Banner, Daylight Sensor"
- },
- {
-   "ID": 56,
-   "RGB": "180, 177, 172",
-   "Blocks": "Horizontal Birch Log, Diorite (plain, Polished), Quartz (Block, Chiseled, Pillar, Stairs, Slab), Sea Lantern"
- },
- {
-   "ID": 57,
-   "RGB": "220, 217, 211",
-   "Blocks": "Horizontal Birch Log, Diorite (plain, Polished), Quartz (Block, Chiseled, Pillar, Stairs, Slab), Sea Lantern"
- },
- {
-   "ID": 58,
-   "RGB": "255, 252, 245",
-   "Blocks": "Horizontal Birch Log, Diorite (plain, Polished), Quartz (Block, Chiseled, Pillar, Stairs, Slab), Sea Lantern"
- },
- {
-   "ID": 59,
-   "RGB": "135, 133, 129",
-   "Blocks": "Horizontal Birch Log, Diorite (plain, Polished), Quartz (Block, Chiseled, Pillar, Stairs, Slab), Sea Lantern"
- },
- {
-   "ID": 60,
-   "RGB": "152, 89, 36",
-   "Blocks": "Acacia Wood (vertical Log, Planks, Stairs, Slab), Pumpkin, Jack o'Lantern, Red Sand, Red Sandstone (plain, Smooth, Chiseled, Stairs, Slab), Terracotta/Hardened Clay, Orange Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 61,
-   "RGB": "186, 109, 44",
-   "Blocks": "Acacia Wood (vertical Log, Planks, Stairs, Slab), Pumpkin, Jack o'Lantern, Red Sand, Red Sandstone (plain, Smooth, Chiseled, Stairs, Slab), Terracotta/Hardened Clay, Orange Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 62,
-   "RGB": "216, 127, 51",
-   "Blocks": "Acacia Wood (vertical Log, Planks, Stairs, Slab), Pumpkin, Jack o'Lantern, Red Sand, Red Sandstone (plain, Smooth, Chiseled, Stairs, Slab), Terracotta/Hardened Clay, Orange Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 63,
-   "RGB": "114, 67, 27",
-   "Blocks": "Acacia Wood (vertical Log, Planks, Stairs, Slab), Pumpkin, Jack o'Lantern, Red Sand, Red Sandstone (plain, Smooth, Chiseled, Stairs, Slab), Terracotta/Hardened Clay, Orange Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 64,
-   "RGB": "125, 53, 152",
-   "Blocks": "Purpur (Block, Pillar, Slab), Magenta Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 65,
-   "RGB": "153, 65, 186",
-   "Blocks": "Purpur (Block, Pillar, Slab), Magenta Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 66,
-   "RGB": "178, 76, 216",
-   "Blocks": "Purpur (Block, Pillar, Slab), Magenta Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 67,
-   "RGB": "94, 40, 114",
-   "Blocks": "Purpur (Block, Pillar, Slab), Magenta Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 68,
-   "RGB": "72, 108, 152",
-   "Blocks": "Light Blue Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 69,
-   "RGB": "88, 132, 186",
-   "Blocks": "Light Blue Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 70,
-   "RGB": "102, 153, 216",
-   "Blocks": "Light Blue Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 71,
-   "RGB": "54, 81, 114",
-   "Blocks": "Light Blue Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 72,
-   "RGB": "161, 161, 36",
-   "Blocks": "Hay Bale, Sponge, Wet Sponge, Yellow Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 73,
-   "RGB": "197, 197, 44",
-   "Blocks": "Hay Bale, Sponge, Wet Sponge, Yellow Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 74,
-   "RGB": "229, 229, 51",
-   "Blocks": "Hay Bale, Sponge, Wet Sponge, Yellow Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 75,
-   "RGB": "121, 121, 27",
-   "Blocks": "Hay Bale, Sponge, Wet Sponge, Yellow Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 76,
-   "RGB": "89, 144, 17",
-   "Blocks": "Melon, Lime Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 77,
-   "RGB": "109, 176, 21",
-   "Blocks": "Melon, Lime Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 78,
-   "RGB": "127, 204, 25",
-   "Blocks": "Melon, Lime Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 79,
-   "RGB": "67, 108, 13",
-   "Blocks": "Melon, Lime Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 80,
-   "RGB": "170, 89, 116",
-   "Blocks": "Pink Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 81,
-   "RGB": "208, 109, 142",
-   "Blocks": "Pink Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 82,
-   "RGB": "242, 127, 165",
-   "Blocks": "Pink Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 83,
-   "RGB": "128, 67, 87",
-   "Blocks": "Pink Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 84,
-   "RGB": "53, 53, 53",
-   "Blocks": "Gray Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 85,
-   "RGB": "65, 65, 65",
-   "Blocks": "Gray Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 86,
-   "RGB": "76, 76, 76",
-   "Blocks": "Gray Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 87,
-   "RGB": "40, 40, 40",
-   "Blocks": "Gray Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 88,
-   "RGB": "108, 108, 108",
-   "Blocks": "Structure Block, Light Gray Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 89,
-   "RGB": "132, 132, 132",
-   "Blocks": "Structure Block, Light Gray Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 90,
-   "RGB": "153, 153, 153",
-   "Blocks": "Structure Block, Light Gray Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 91,
-   "RGB": "81, 81, 81",
-   "Blocks": "Structure Block, Light Gray Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 92,
-   "RGB": "53, 89, 108",
-   "Blocks": "Prismarine, Cyan Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 93,
-   "RGB": "65, 109, 132",
-   "Blocks": "Prismarine, Cyan Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 94,
-   "RGB": "76, 127, 153",
-   "Blocks": "Prismarine, Cyan Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 95,
-   "RGB": "40, 67, 81",
-   "Blocks": "Prismarine, Cyan Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 96,
-   "RGB": "89, 44, 125",
-   "Blocks": "Repeating Command Block, Mycelium, Purple Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 97,
-   "RGB": "109, 54, 153",
-   "Blocks": "Repeating Command Block, Mycelium, Purple Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 98,
-   "RGB": "127, 63, 178",
-   "Blocks": "Repeating Command Block, Mycelium, Purple Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 99,
-   "RGB": "67, 33, 94",
-   "Blocks": "Repeating Command Block, Mycelium, Purple Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 100,
-   "RGB": "36, 53, 125",
-   "Blocks": "Blue Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 101,
-   "RGB": "44, 65, 153",
-   "Blocks": "Blue Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 102,
-   "RGB": "51, 76, 178",
-   "Blocks": "Blue Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 103,
-   "RGB": "27, 40, 94",
-   "Blocks": "Blue Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 104,
-   "RGB": "72, 53, 36",
-   "Blocks": "Dark Oak Wood (vertical or horizontal Log, Planks, Stairs, Slab, Door, Fence, Fence Gate), horizontal Spruce Log, Impulse Command Block, Soul Sand, Brown Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 105,
-   "RGB": "88, 65, 44",
-   "Blocks": "Dark Oak Wood (vertical or horizontal Log, Planks, Stairs, Slab, Door, Fence, Fence Gate), horizontal Spruce Log, Impulse Command Block, Soul Sand, Brown Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 106,
-   "RGB": "102, 76, 51",
-   "Blocks": "Dark Oak Wood (vertical or horizontal Log, Planks, Stairs, Slab, Door, Fence, Fence Gate), horizontal Spruce Log, Impulse Command Block, Soul Sand, Brown Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 107,
-   "RGB": "54, 40, 27",
-   "Blocks": "Dark Oak Wood (vertical or horizontal Log, Planks, Stairs, Slab, Door, Fence, Fence Gate), horizontal Spruce Log, Impulse Command Block, Soul Sand, Brown Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 108,
-   "RGB": "72, 89, 36",
-   "Blocks": "Chain Command Block, End Portal, Green Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 109,
-   "RGB": "88, 109, 44",
-   "Blocks": "Chain Command Block, End Portal, Green Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 110,
-   "RGB": "102, 127, 51",
-   "Blocks": "Chain Command Block, End Portal, Green Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 111,
-   "RGB": "54, 67, 27",
-   "Blocks": "Chain Command Block, End Portal, Green Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 112,
-   "RGB": "108, 36, 36",
-   "Blocks": "Bricks (block, Slab, Stairs), Nether Wart Block, Nether Wart, Enchantment Table, Red Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 113,
-   "RGB": "132, 44, 44",
-   "Blocks": "Bricks (block, Slab, Stairs), Nether Wart Block, Nether Wart, Enchantment Table, Red Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 114,
-   "RGB": "153, 51, 51",
-   "Blocks": "Bricks (block, Slab, Stairs), Nether Wart Block, Nether Wart, Enchantment Table, Red Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 115,
-   "RGB": "81, 27, 27",
-   "Blocks": "Bricks (block, Slab, Stairs), Nether Wart Block, Nether Wart, Enchantment Table, Red Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 116,
-   "RGB": "17, 17, 17",
-   "Blocks": "Block of Coal, Obsidian, Dragon Egg, End Gateway, End Portal, Black Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 117,
-   "RGB": "21, 21, 21",
-   "Blocks": "Block of Coal, Obsidian, Dragon Egg, End Gateway, End Portal, Black Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 118,
-   "RGB": "25, 25, 25",
-   "Blocks": "Block of Coal, Obsidian, Dragon Egg, End Gateway, End Portal, Black Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 119,
-   "RGB": "13, 13, 13",
-   "Blocks": "Block of Coal, Obsidian, Dragon Egg, End Gateway, End Portal, Black Wool/Carpet/Glass/Concrete/Glazed Terracotta/Bed foot"
- },
- {
-   "ID": 120,
-   "RGB": "176, 168, 54",
-   "Blocks": "Block of Gold, Weighted Pressure Plate (Light)"
- },
- {
-   "ID": 121,
-   "RGB": "215, 205, 66",
-   "Blocks": "Block of Gold, Weighted Pressure Plate (Light)"
- },
- {
-   "ID": 122,
-   "RGB": "250, 238, 77",
-   "Blocks": "Block of Gold, Weighted Pressure Plate (Light)"
- },
- {
-   "ID": 123,
-   "RGB": "132, 126, 40",
-   "Blocks": "Block of Gold, Weighted Pressure Plate (Light)"
- },
- {
-   "ID": 124,
-   "RGB": "64, 154, 150",
-   "Blocks": "Block of Diamond, Prismarine Bricks, Dark Prismarine, Beacon"
- },
- {
-   "ID": 125,
-   "RGB": "79, 188, 183",
-   "Blocks": "Block of Diamond, Prismarine Bricks, Dark Prismarine, Beacon"
- },
- {
-   "ID": 126,
-   "RGB": "92, 219, 213",
-   "Blocks": "Block of Diamond, Prismarine Bricks, Dark Prismarine, Beacon"
- },
- {
-   "ID": 127,
-   "RGB": "48, 115, 112",
-   "Blocks": "Block of Diamond, Prismarine Bricks, Dark Prismarine, Beacon"
- },
- {
-   "ID": 128,
-   "RGB": "52, 90, 180",
-   "Blocks": "Lapis Lazuli Block"
- },
- {
-   "ID": 129,
-   "RGB": "63, 110, 220",
-   "Blocks": "Lapis Lazuli Block"
- },
- {
-   "ID": 130,
-   "RGB": "74, 128, 255",
-   "Blocks": "Lapis Lazuli Block"
- },
- {
-   "ID": 131,
-   "RGB": "39, 67, 135",
-   "Blocks": "Lapis Lazuli Block"
- },
- {
-   "ID": 132,
-   "RGB": "0, 153, 40",
-   "Blocks": "Block of Emerald"
- },
- {
-   "ID": 133,
-   "RGB": "0, 187, 50",
-   "Blocks": "Block of Emerald"
- },
- {
-   "ID": 134,
-   "RGB": "0, 217, 58",
-   "Blocks": "Block of Emerald"
- },
- {
-   "ID": 135,
-   "RGB": "0, 114, 30",
-   "Blocks": "Block of Emerald"
- },
- {
-   "ID": 136,
-   "RGB": "91, 60, 34",
-   "Blocks": "Spruce Wood (vertical Log, Planks, Stairs, Slab, Door, Fence, Fence Gate), horizontal Oak Log, horizontal Jungle Log, Podzol"
- },
- {
-   "ID": 137,
-   "RGB": "111, 74, 42",
-   "Blocks": "Spruce Wood (vertical Log, Planks, Stairs, Slab, Door, Fence, Fence Gate), horizontal Oak Log, horizontal Jungle Log, Podzol"
- },
- {
-   "ID": 138,
-   "RGB": "129, 86, 49",
-   "Blocks": "Spruce Wood (vertical Log, Planks, Stairs, Slab, Door, Fence, Fence Gate), horizontal Oak Log, horizontal Jungle Log, Podzol"
- },
- {
-   "ID": 139,
-   "RGB": "68, 45, 25",
-   "Blocks": "Spruce Wood (vertical Log, Planks, Stairs, Slab, Door, Fence, Fence Gate), horizontal Oak Log, horizontal Jungle Log, Podzol"
- },
- {
-   "ID": 140,
-   "RGB": "79, 1, 0",
-   "Blocks": "Netherrack, Nether Bricks, Nether Brick Stairs, Nether Brick Fence, Red Nether Brick, Nether Quartz Ore, Magma Block"
- },
- {
-   "ID": 141,
-   "RGB": "96, 1, 0",
-   "Blocks": "Netherrack, Nether Bricks, Nether Brick Stairs, Nether Brick Fence, Red Nether Brick, Nether Quartz Ore, Magma Block"
- },
- {
-   "ID": 142,
-   "RGB": "112, 2, 0",
-   "Blocks": "Netherrack, Nether Bricks, Nether Brick Stairs, Nether Brick Fence, Red Nether Brick, Nether Quartz Ore, Magma Block"
- },
- {
-   "ID": 143,
-   "RGB": "59, 1, 0",
-   "Blocks": "Netherrack, Nether Bricks, Nether Brick Stairs, Nether Brick Fence, Red Nether Brick, Nether Quartz Ore, Magma Block"
- },
- {
-   "ID": 144,
-   "RGB": "147, 124, 113",
-   "Blocks": "White Terracotta"
- },
- {
-   "ID": 145,
-   "RGB": "180, 152, 138",
-   "Blocks": "White Terracotta"
- },
- {
-   "ID": 146,
-   "RGB": "209, 177, 161",
-   "Blocks": "White Terracotta"
- },
- {
-   "ID": 147,
-   "RGB": "110, 93, 85",
-   "Blocks": "White Terracotta"
- },
- {
-   "ID": 148,
-   "RGB": "112, 57, 25",
-   "Blocks": "Orange Terracotta"
- },
- {
-   "ID": 149,
-   "RGB": "137, 70, 31",
-   "Blocks": "Orange Terracotta"
- },
- {
-   "ID": 150,
-   "RGB": "159, 82, 36",
-   "Blocks": "Orange Terracotta"
- },
- {
-   "ID": 151,
-   "RGB": "84, 43, 19",
-   "Blocks": "Orange Terracotta"
- },
- {
-   "ID": 152,
-   "RGB": "105, 61, 76",
-   "Blocks": "Magenta Terracotta"
- },
- {
-   "ID": 153,
-   "RGB": "128, 75, 93",
-   "Blocks": "Magenta Terracotta"
- },
- {
-   "ID": 154,
-   "RGB": "149, 87, 108",
-   "Blocks": "Magenta Terracotta"
- },
- {
-   "ID": 155,
-   "RGB": "78, 46, 57",
-   "Blocks": "Magenta Terracotta"
- },
- {
-   "ID": 156,
-   "RGB": "79, 76, 97",
-   "Blocks": "Light Blue Terracotta"
- },
- {
-   "ID": 157,
-   "RGB": "96, 93, 119",
-   "Blocks": "Light Blue Terracotta"
- },
- {
-   "ID": 158,
-   "RGB": "112, 108, 138",
-   "Blocks": "Light Blue Terracotta"
- },
- {
-   "ID": 159,
-   "RGB": "59, 57, 73",
-   "Blocks": "Light Blue Terracotta"
- },
- {
-   "ID": 160,
-   "RGB": "131, 93, 25",
-   "Blocks": "Yellow Terracotta"
- },
- {
-   "ID": 161,
-   "RGB": "160, 114, 31",
-   "Blocks": "Yellow Terracotta"
- },
- {
-   "ID": 162,
-   "RGB": "186, 133, 36",
-   "Blocks": "Yellow Terracotta"
- },
- {
-   "ID": 163,
-   "RGB": "98, 70, 19",
-   "Blocks": "Yellow Terracotta"
- },
- {
-   "ID": 164,
-   "RGB": "72, 82, 37",
-   "Blocks": "Lime Terracotta"
- },
- {
-   "ID": 165,
-   "RGB": "88, 100, 45",
-   "Blocks": "Lime Terracotta"
- },
- {
-   "ID": 166,
-   "RGB": "103, 117, 53",
-   "Blocks": "Lime Terracotta"
- },
- {
-   "ID": 167,
-   "RGB": "54, 61, 28",
-   "Blocks": "Lime Terracotta"
- },
- {
-   "ID": 168,
-   "RGB": "112, 54, 55",
-   "Blocks": "Pink Terracotta"
- },
- {
-   "ID": 169,
-   "RGB": "138, 66, 67",
-   "Blocks": "Pink Terracotta"
- },
- {
-   "ID": 170,
-   "RGB": "160, 77, 78",
-   "Blocks": "Pink Terracotta"
- },
- {
-   "ID": 171,
-   "RGB": "84, 40, 41",
-   "Blocks": "Pink Terracotta"
- },
- {
-   "ID": 172,
-   "RGB": "40, 28, 24",
-   "Blocks": "Gray Terracotta"
- },
- {
-   "ID": 173,
-   "RGB": "49, 35, 30",
-   "Blocks": "Gray Terracotta"
- },
- {
-   "ID": 174,
-   "RGB": "57, 41, 35",
-   "Blocks": "Gray Terracotta"
- },
- {
-   "ID": 175,
-   "RGB": "30, 21, 18",
-   "Blocks": "Gray Terracotta"
- },
- {
-   "ID": 176,
-   "RGB": "95, 75, 69",
-   "Blocks": "Light Gray Terracotta"
- },
- {
-   "ID": 177,
-   "RGB": "116, 92, 84",
-   "Blocks": "Light Gray Terracotta"
- },
- {
-   "ID": 178,
-   "RGB": "135, 107, 98",
-   "Blocks": "Light Gray Terracotta"
- },
- {
-   "ID": 179,
-   "RGB": "71, 56, 51",
-   "Blocks": "Light Gray Terracotta"
- },
- {
-   "ID": 180,
-   "RGB": "61, 64, 64",
-   "Blocks": "Cyan Terracotta"
- },
- {
-   "ID": 181,
-   "RGB": "75, 79, 79",
-   "Blocks": "Cyan Terracotta"
- },
- {
-   "ID": 182,
-   "RGB": "87, 92, 92",
-   "Blocks": "Cyan Terracotta"
- },
- {
-   "ID": 183,
-   "RGB": "46, 48, 48",
-   "Blocks": "Cyan Terracotta"
- },
- {
-   "ID": 184,
-   "RGB": "86, 51, 62",
-   "Blocks": "Purple Terracotta"
- },
- {
-   "ID": 185,
-   "RGB": "105, 62, 75",
-   "Blocks": "Purple Terracotta"
- },
- {
-   "ID": 186,
-   "RGB": "122, 73, 88",
-   "Blocks": "Purple Terracotta"
- },
- {
-   "ID": 187,
-   "RGB": "64, 38, 46",
-   "Blocks": "Purple Terracotta"
- },
- {
-   "ID": 188,
-   "RGB": "53, 43, 64",
-   "Blocks": "Blue Terracotta"
- },
- {
-   "ID": 189,
-   "RGB": "65, 53, 79",
-   "Blocks": "Blue Terracotta"
- },
- {
-   "ID": 190,
-   "RGB": "76, 62, 92",
-   "Blocks": "Blue Terracotta"
- },
- {
-   "ID": 191,
-   "RGB": "40, 32, 48",
-   "Blocks": "Blue Terracotta"
- },
- {
-   "ID": 192,
-   "RGB": "53, 35, 24",
-   "Blocks": "Brown Terracotta"
- },
- {
-   "ID": 193,
-   "RGB": "65, 43, 30",
-   "Blocks": "Brown Terracotta"
- },
- {
-   "ID": 194,
-   "RGB": "76, 50, 35",
-   "Blocks": "Brown Terracotta"
- },
- {
-   "ID": 195,
-   "RGB": "40, 26, 18",
-   "Blocks": "Brown Terracotta"
- },
- {
-   "ID": 196,
-   "RGB": "53, 57, 29",
-   "Blocks": "Green Terracotta"
- },
- {
-   "ID": 197,
-   "RGB": "65, 70, 36",
-   "Blocks": "Green Terracotta"
- },
- {
-   "ID": 198,
-   "RGB": "76, 82, 42",
-   "Blocks": "Green Terracotta"
- },
- {
-   "ID": 199,
-   "RGB": "40, 43, 22",
-   "Blocks": "Green Terracotta"
- },
- {
-   "ID": 200,
-   "RGB": "100, 42, 32",
-   "Blocks": "Red Terracotta"
- },
- {
-   "ID": 201,
-   "RGB": "122, 51, 39",
-   "Blocks": "Red Terracotta"
- },
- {
-   "ID": 202,
-   "RGB": "142, 60, 46",
-   "Blocks": "Red Terracotta"
- },
- {
-   "ID": 203,
-   "RGB": "75, 31, 24",
-   "Blocks": "Red Terracotta"
- },
- {
-   "ID": 204,
-   "RGB": "26, 15, 11",
-   "Blocks": "Black Terracotta"
- },
- {
-   "ID": 205,
-   "RGB": "31, 18, 13",
-   "Blocks": "Black Terracotta"
- },
- {
-   "ID": 206,
-   "RGB": "37, 22, 16",
-   "Blocks": "Black Terracotta"
- },
- {
-   "ID": 207,
-   "RGB": "19, 11, 8",
-   "Blocks": "Black Terracotta"
- }
+  {
+    "ID": 0,
+    "RGB": "Transparent",
+    "Blocks": "Air, Void Air, Cave Air, Barrier, Redstone Lamp, Cake (including cake with Candles), Powered Rail, Detector Rail, Torch, Redstone Wire, Ladder, Rail, Lever, Redstone Torch, Buttons, Repeater, Tripwire Hook, Tripwire, Flower Pot (including potted plants), Head, Comparator, Activator Rail, End Rod, Glass, Glass Pane, Nether Portal, Stained Glass Pane (all colors), Structure Void, Iron Bars, Soul Fire Torch, Chain, Light Block",
+    "Name": "NONE"
+  },
+  {
+    "ID": 1,
+    "RGB": "Transparent",
+    "Blocks": "Air, Void Air, Cave Air, Barrier, Redstone Lamp, Cake (including cake with Candles), Powered Rail, Detector Rail, Torch, Redstone Wire, Ladder, Rail, Lever, Redstone Torch, Buttons, Repeater, Tripwire Hook, Tripwire, Flower Pot (including potted plants), Head, Comparator, Activator Rail, End Rod, Glass, Glass Pane, Nether Portal, Stained Glass Pane (all colors), Structure Void, Iron Bars, Soul Fire Torch, Chain, Light Block",
+    "Name": "NONE"
+  },
+  {
+    "ID": 2,
+    "RGB": "Transparent",
+    "Blocks": "Air, Void Air, Cave Air, Barrier, Redstone Lamp, Cake (including cake with Candles), Powered Rail, Detector Rail, Torch, Redstone Wire, Ladder, Rail, Lever, Redstone Torch, Buttons, Repeater, Tripwire Hook, Tripwire, Flower Pot (including potted plants), Head, Comparator, Activator Rail, End Rod, Glass, Glass Pane, Nether Portal, Stained Glass Pane (all colors), Structure Void, Iron Bars, Soul Fire Torch, Chain, Light Block",
+    "Name": "NONE"
+  },
+  {
+    "ID": 3,
+    "RGB": "Transparent",
+    "Blocks": "Air, Void Air, Cave Air, Barrier, Redstone Lamp, Cake (including cake with Candles), Powered Rail, Detector Rail, Torch, Redstone Wire, Ladder, Rail, Lever, Redstone Torch, Buttons, Repeater, Tripwire Hook, Tripwire, Flower Pot (including potted plants), Head, Comparator, Activator Rail, End Rod, Glass, Glass Pane, Nether Portal, Stained Glass Pane (all colors), Structure Void, Iron Bars, Soul Fire Torch, Chain, Light Block",
+    "Name": "NONE"
+  },
+  {
+    "ID": 4,
+    "RGB": "89, 125, 39",
+    "Blocks": "Grass Block, Slime Block",
+    "Name": "GRASS"
+  },
+  {
+    "ID": 5,
+    "RGB": "109, 153, 48",
+    "Blocks": "Grass Block, Slime Block",
+    "Name": "GRASS"
+  },
+  {
+    "ID": 6,
+    "RGB": "127, 178, 56",
+    "Blocks": "Grass Block, Slime Block",
+    "Name": "GRASS"
+  },
+  {
+    "ID": 7,
+    "RGB": "67, 94, 29",
+    "Blocks": "Grass Block, Slime Block",
+    "Name": "GRASS"
+  },
+  {
+    "ID": 8,
+    "RGB": "174, 164, 115",
+    "Blocks": "Sand, Birch (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Sandstone (All variants, all slabs, all stairs, all walls), Glowstone, End Stone, End Stone Bricks (slab, stairs, wall), Bone Block, Turtle Egg, Scaffolding, Candle",
+    "Name": "SAND"
+  },
+  {
+    "ID": 9,
+    "RGB": "213, 201, 140",
+    "Blocks": "Sand, Birch (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Sandstone (All variants, all slabs, all stairs, all walls), Glowstone, End Stone, End Stone Bricks (slab, stairs, wall), Bone Block, Turtle Egg, Scaffolding, Candle",
+    "Name": "SAND"
+  },
+  {
+    "ID": 10,
+    "RGB": "247, 233, 163",
+    "Blocks": "Sand, Birch (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Sandstone (All variants, all slabs, all stairs, all walls), Glowstone, End Stone, End Stone Bricks (slab, stairs, wall), Bone Block, Turtle Egg, Scaffolding, Candle",
+    "Name": "SAND"
+  },
+  {
+    "ID": 11,
+    "RGB": "130, 123, 86",
+    "Blocks": "Sand, Birch (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Sandstone (All variants, all slabs, all stairs, all walls), Glowstone, End Stone, End Stone Bricks (slab, stairs, wall), Bone Block, Turtle Egg, Scaffolding, Candle",
+    "Name": "SAND"
+  },
+  {
+    "ID": 12,
+    "RGB": "140, 140, 140",
+    "Blocks": "Cobweb, Mushroom Stem, Bed (head), White Candle",
+    "Name": "WOOL"
+  },
+  {
+    "ID": 13,
+    "RGB": "171, 171, 171",
+    "Blocks": "Cobweb, Mushroom Stem, Bed (head), White Candle",
+    "Name": "WOOL"
+  },
+  {
+    "ID": 14,
+    "RGB": "199, 199, 199",
+    "Blocks": "Cobweb, Mushroom Stem, Bed (head), White Candle",
+    "Name": "WOOL"
+  },
+  {
+    "ID": 15,
+    "RGB": "105, 105, 105",
+    "Blocks": "Cobweb, Mushroom Stem, Bed (head), White Candle",
+    "Name": "WOOL"
+  },
+  {
+    "ID": 16,
+    "RGB": "180, 0, 0",
+    "Blocks": "Lava, TNT, Fire, Redstone Block",
+    "Name": "FIRE"
+  },
+  {
+    "ID": 17,
+    "RGB": "220, 0, 0",
+    "Blocks": "Lava, TNT, Fire, Redstone Block",
+    "Name": "FIRE"
+  },
+  {
+    "ID": 18,
+    "RGB": "255, 0, 0",
+    "Blocks": "Lava, TNT, Fire, Redstone Block",
+    "Name": "FIRE"
+  },
+  {
+    "ID": 19,
+    "RGB": "135, 0, 0",
+    "Blocks": "Lava, TNT, Fire, Redstone Block",
+    "Name": "FIRE"
+  },
+  {
+    "ID": 20,
+    "RGB": "112, 112, 180",
+    "Blocks": "Ice, Frosted Ice, Packed Ice, Blue Ice",
+    "Name": "ICE"
+  },
+  {
+    "ID": 21,
+    "RGB": "138, 138, 220",
+    "Blocks": "Ice, Frosted Ice, Packed Ice, Blue Ice",
+    "Name": "ICE"
+  },
+  {
+    "ID": 22,
+    "RGB": "160, 160, 255",
+    "Blocks": "Ice, Frosted Ice, Packed Ice, Blue Ice",
+    "Name": "ICE"
+  },
+  {
+    "ID": 23,
+    "RGB": "84, 84, 135",
+    "Blocks": "Ice, Frosted Ice, Packed Ice, Blue Ice",
+    "Name": "ICE"
+  },
+  {
+    "ID": 24,
+    "RGB": "117, 117, 117",
+    "Blocks": "Block of Iron, Iron Door, Brewing Stand, Heavy Weighted Pressure Plate, Iron Trapdoor, Lantern, Anvil (all damage levels), Grindstone, Soul Fire Lantern, Lodestone",
+    "Name": "METAL"
+  },
+  {
+    "ID": 25,
+    "RGB": "144, 144, 144",
+    "Blocks": "Block of Iron, Iron Door, Brewing Stand, Heavy Weighted Pressure Plate, Iron Trapdoor, Lantern, Anvil (all damage levels), Grindstone, Soul Fire Lantern, Lodestone",
+    "Name": "METAL"
+  },
+  {
+    "ID": 26,
+    "RGB": "167, 167, 167",
+    "Blocks": "Block of Iron, Iron Door, Brewing Stand, Heavy Weighted Pressure Plate, Iron Trapdoor, Lantern, Anvil (all damage levels), Grindstone, Soul Fire Lantern, Lodestone",
+    "Name": "METAL"
+  },
+  {
+    "ID": 27,
+    "RGB": "88, 88, 88",
+    "Blocks": "Block of Iron, Iron Door, Brewing Stand, Heavy Weighted Pressure Plate, Iron Trapdoor, Lantern, Anvil (all damage levels), Grindstone, Soul Fire Lantern, Lodestone",
+    "Name": "METAL"
+  },
+  {
+    "ID": 28,
+    "RGB": "0, 87, 0",
+    "Blocks": "Sapling, Flowers, Wheat, Sugar Cane, Pumpkin Stem, Melon Stem, Lily Pad, Cocoa, Carrots, Potatoes, Beetroots, Sweet Berry Bush, Grass, Fern, Vines, Leaves, Cactus, Bamboo, Cave Vines, Spore Blossom, (Flowering) Azalea, Dripleaf (big and small)",
+    "Name": "PLANT"
+  },
+  {
+    "ID": 29,
+    "RGB": "0, 106, 0",
+    "Blocks": "Sapling, Flowers, Wheat, Sugar Cane, Pumpkin Stem, Melon Stem, Lily Pad, Cocoa, Carrots, Potatoes, Beetroots, Sweet Berry Bush, Grass, Fern, Vines, Leaves, Cactus, Bamboo, Cave Vines, Spore Blossom, (Flowering) Azalea, Dripleaf (big and small)",
+    "Name": "PLANT"
+  },
+  {
+    "ID": 30,
+    "RGB": "0, 124, 0",
+    "Blocks": "Sapling, Flowers, Wheat, Sugar Cane, Pumpkin Stem, Melon Stem, Lily Pad, Cocoa, Carrots, Potatoes, Beetroots, Sweet Berry Bush, Grass, Fern, Vines, Leaves, Cactus, Bamboo, Cave Vines, Spore Blossom, (Flowering) Azalea, Dripleaf (big and small)",
+    "Name": "PLANT"
+  },
+  {
+    "ID": 31,
+    "RGB": "0, 65, 0",
+    "Blocks": "Sapling, Flowers, Wheat, Sugar Cane, Pumpkin Stem, Melon Stem, Lily Pad, Cocoa, Carrots, Potatoes, Beetroots, Sweet Berry Bush, Grass, Fern, Vines, Leaves, Cactus, Bamboo, Cave Vines, Spore Blossom, (Flowering) Azalea, Dripleaf (big and small)",
+    "Name": "PLANT"
+  },
+  {
+    "ID": 32,
+    "RGB": "180, 180, 180",
+    "Blocks": "Snow, Snow Block, White (Bed (foot), Wool, Stained Glass, Carpet, Shulker Box, Glazed Terracotta, Concrete, Concrete Powder), Powder Snow",
+    "Name": "SNOW"
+  },
+  {
+    "ID": 33,
+    "RGB": "220, 220, 220",
+    "Blocks": "Snow, Snow Block, White (Bed (foot), Wool, Stained Glass, Carpet, Shulker Box, Glazed Terracotta, Concrete, Concrete Powder), Powder Snow",
+    "Name": "SNOW"
+  },
+  {
+    "ID": 34,
+    "RGB": "255, 255, 255",
+    "Blocks": "Snow, Snow Block, White (Bed (foot), Wool, Stained Glass, Carpet, Shulker Box, Glazed Terracotta, Concrete, Concrete Powder), Powder Snow",
+    "Name": "SNOW"
+  },
+  {
+    "ID": 35,
+    "RGB": "135, 135, 135",
+    "Blocks": "Snow, Snow Block, White (Bed (foot), Wool, Stained Glass, Carpet, Shulker Box, Glazed Terracotta, Concrete, Concrete Powder), Powder Snow",
+    "Name": "SNOW"
+  },
+  {
+    "ID": 36,
+    "RGB": "115, 118, 129",
+    "Blocks": "Clay, Infested Block (not including infested Deepslate)",
+    "Name": "CLAY"
+  },
+  {
+    "ID": 37,
+    "RGB": "141, 144, 158",
+    "Blocks": "Clay, Infested Block (not including infested Deepslate)",
+    "Name": "CLAY"
+  },
+  {
+    "ID": 38,
+    "RGB": "164, 168, 184",
+    "Blocks": "Clay, Infested Block (not including infested Deepslate)",
+    "Name": "CLAY"
+  },
+  {
+    "ID": 39,
+    "RGB": "86, 88, 97",
+    "Blocks": "Clay, Infested Block (not including infested Deepslate)",
+    "Name": "CLAY"
+  },
+  {
+    "ID": 40,
+    "RGB": "106, 76, 54",
+    "Blocks": "Dirt, Coarse Dirt, Farmland, Grass Path, Granite (slab, stairs, wall), Polished Granite (slab, stairs), Jungle (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Jukebox, Brown Mushroom Block, Rooted Dirt, Hanging Roots",
+    "Name": "DIRT"
+  },
+  {
+    "ID": 41,
+    "RGB": "130, 94, 66",
+    "Blocks": "Dirt, Coarse Dirt, Farmland, Grass Path, Granite (slab, stairs, wall), Polished Granite (slab, stairs), Jungle (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Jukebox, Brown Mushroom Block, Rooted Dirt, Hanging Roots",
+    "Name": "DIRT"
+  },
+  {
+    "ID": 42,
+    "RGB": "151, 109, 77",
+    "Blocks": "Dirt, Coarse Dirt, Farmland, Grass Path, Granite (slab, stairs, wall), Polished Granite (slab, stairs), Jungle (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Jukebox, Brown Mushroom Block, Rooted Dirt, Hanging Roots",
+    "Name": "DIRT"
+  },
+  {
+    "ID": 43,
+    "RGB": "79, 57, 40",
+    "Blocks": "Dirt, Coarse Dirt, Farmland, Grass Path, Granite (slab, stairs, wall), Polished Granite (slab, stairs), Jungle (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Jukebox, Brown Mushroom Block, Rooted Dirt, Hanging Roots",
+    "Name": "DIRT"
+  },
+  {
+    "ID": 44,
+    "RGB": "79, 79, 79",
+    "Blocks": "Stone (slab, stairs), Andesite (slab, stairs, wall), Polished Andesite (slab, stairs), Cobblestone (slab, stairs, wall), Bedrock, Gold Ore, Iron Ore, Coal Ore, Lapis Lazuli Ore, Dispenser, Mossy Cobblestone (slab, stairs, wall), Spawner, Diamond Ore, Furnace, Stone Pressure Plate, Redstone Ore, Stone Bricks (all variants, all slabs, all stairs, all walls), Emerald Ore, Ender Chest, Dropper, Smooth Stone (slab), Observer, Smoker, Blast Furnace, Stonecutter, Sticky Piston, Piston, Piston Head, Gravel, Acacia Log (side), Cauldron (including cauldrons with water, lava, or powdered snow), Hopper, Copper Ore",
+    "Name": "STONE"
+  },
+  {
+    "ID": 45,
+    "RGB": "96, 96, 96",
+    "Blocks": "Stone (slab, stairs), Andesite (slab, stairs, wall), Polished Andesite (slab, stairs), Cobblestone (slab, stairs, wall), Bedrock, Gold Ore, Iron Ore, Coal Ore, Lapis Lazuli Ore, Dispenser, Mossy Cobblestone (slab, stairs, wall), Spawner, Diamond Ore, Furnace, Stone Pressure Plate, Redstone Ore, Stone Bricks (all variants, all slabs, all stairs, all walls), Emerald Ore, Ender Chest, Dropper, Smooth Stone (slab), Observer, Smoker, Blast Furnace, Stonecutter, Sticky Piston, Piston, Piston Head, Gravel, Acacia Log (side), Cauldron (including cauldrons with water, lava, or powdered snow), Hopper, Copper Ore",
+    "Name": "STONE"
+  },
+  {
+    "ID": 46,
+    "RGB": "112, 112, 112",
+    "Blocks": "Stone (slab, stairs), Andesite (slab, stairs, wall), Polished Andesite (slab, stairs), Cobblestone (slab, stairs, wall), Bedrock, Gold Ore, Iron Ore, Coal Ore, Lapis Lazuli Ore, Dispenser, Mossy Cobblestone (slab, stairs, wall), Spawner, Diamond Ore, Furnace, Stone Pressure Plate, Redstone Ore, Stone Bricks (all variants, all slabs, all stairs, all walls), Emerald Ore, Ender Chest, Dropper, Smooth Stone (slab), Observer, Smoker, Blast Furnace, Stonecutter, Sticky Piston, Piston, Piston Head, Gravel, Acacia Log (side), Cauldron (including cauldrons with water, lava, or powdered snow), Hopper, Copper Ore",
+    "Name": "STONE"
+  },
+  {
+    "ID": 47,
+    "RGB": "59, 59, 59",
+    "Blocks": "Stone (slab, stairs), Andesite (slab, stairs, wall), Polished Andesite (slab, stairs), Cobblestone (slab, stairs, wall), Bedrock, Gold Ore, Iron Ore, Coal Ore, Lapis Lazuli Ore, Dispenser, Mossy Cobblestone (slab, stairs, wall), Spawner, Diamond Ore, Furnace, Stone Pressure Plate, Redstone Ore, Stone Bricks (all variants, all slabs, all stairs, all walls), Emerald Ore, Ender Chest, Dropper, Smooth Stone (slab), Observer, Smoker, Blast Furnace, Stonecutter, Sticky Piston, Piston, Piston Head, Gravel, Acacia Log (side), Cauldron (including cauldrons with water, lava, or powdered snow), Hopper, Copper Ore",
+    "Name": "STONE"
+  },
+  {
+    "ID": 48,
+    "RGB": "45, 45, 180",
+    "Blocks": "Kelp, Seagrass, Water, Bubble Column",
+    "Name": "WATER"
+  },
+  {
+    "ID": 49,
+    "RGB": "55, 55, 220",
+    "Blocks": "Kelp, Seagrass, Water, Bubble Column",
+    "Name": "WATER"
+  },
+  {
+    "ID": 50,
+    "RGB": "64, 64, 255",
+    "Blocks": "Kelp, Seagrass, Water, Bubble Column",
+    "Name": "WATER"
+  },
+  {
+    "ID": 51,
+    "RGB": "33, 33, 135",
+    "Blocks": "Kelp, Seagrass, Water, Bubble Column",
+    "Name": "WATER"
+  },
+  {
+    "ID": 52,
+    "RGB": "100, 84, 50",
+    "Blocks": "Oak (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Door, Pressure Plate, Fence, Trapdoor, Fence Gate, Slab, Stairs), Note Block, Bookshelf, Chest, Crafting Table, Trapped Chest, Daylight Detector, Loom, Barrel, Cartography Table, Fletching Table, Lectern, Smithing Table, Composter, Bamboo Sapling, Dead Bush, Petrified Oak Slab, Beehive, Banners (all colors, when not as markers)",
+    "Name": "WOOD"
+  },
+  {
+    "ID": 53,
+    "RGB": "123, 102, 62",
+    "Blocks": "Oak (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Door, Pressure Plate, Fence, Trapdoor, Fence Gate, Slab, Stairs), Note Block, Bookshelf, Chest, Crafting Table, Trapped Chest, Daylight Detector, Loom, Barrel, Cartography Table, Fletching Table, Lectern, Smithing Table, Composter, Bamboo Sapling, Dead Bush, Petrified Oak Slab, Beehive, Banners (all colors, when not as markers)",
+    "Name": "WOOD"
+  },
+  {
+    "ID": 54,
+    "RGB": "143, 119, 72",
+    "Blocks": "Oak (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Door, Pressure Plate, Fence, Trapdoor, Fence Gate, Slab, Stairs), Note Block, Bookshelf, Chest, Crafting Table, Trapped Chest, Daylight Detector, Loom, Barrel, Cartography Table, Fletching Table, Lectern, Smithing Table, Composter, Bamboo Sapling, Dead Bush, Petrified Oak Slab, Beehive, Banners (all colors, when not as markers)",
+    "Name": "WOOD"
+  },
+  {
+    "ID": 55,
+    "RGB": "75, 63, 38",
+    "Blocks": "Oak (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Door, Pressure Plate, Fence, Trapdoor, Fence Gate, Slab, Stairs), Note Block, Bookshelf, Chest, Crafting Table, Trapped Chest, Daylight Detector, Loom, Barrel, Cartography Table, Fletching Table, Lectern, Smithing Table, Composter, Bamboo Sapling, Dead Bush, Petrified Oak Slab, Beehive, Banners (all colors, when not as markers)",
+    "Name": "WOOD"
+  },
+  {
+    "ID": 56,
+    "RGB": "180, 177, 172",
+    "Blocks": "Diorite (stairs, slab, wall), Polished Diorite (stairs, slab), Birch Log (side), Quartz Block (all variants, all slabs, all stairs), Sea Lantern, Target",
+    "Name": "QUARTZ"
+  },
+  {
+    "ID": 57,
+    "RGB": "220, 217, 211",
+    "Blocks": "Diorite (stairs, slab, wall), Polished Diorite (stairs, slab), Birch Log (side), Quartz Block (all variants, all slabs, all stairs), Sea Lantern, Target",
+    "Name": "QUARTZ"
+  },
+  {
+    "ID": 58,
+    "RGB": "255, 252, 245",
+    "Blocks": "Diorite (stairs, slab, wall), Polished Diorite (stairs, slab), Birch Log (side), Quartz Block (all variants, all slabs, all stairs), Sea Lantern, Target",
+    "Name": "QUARTZ"
+  },
+  {
+    "ID": 59,
+    "RGB": "135, 133, 129",
+    "Blocks": "Diorite (stairs, slab, wall), Polished Diorite (stairs, slab), Birch Log (side), Quartz Block (all variants, all slabs, all stairs), Sea Lantern, Target",
+    "Name": "QUARTZ"
+  },
+  {
+    "ID": 60,
+    "RGB": "152, 89, 36",
+    "Blocks": "Acacia (Planks, Log (vertical), Stripped Log, Stripped Wood, Sign, Trapdoor, Slab, Stairs, Pressure Plate, Fence Gate, Fence, Door), Red Sand, Orange (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Pumpkin, Carved Pumpkin, Jack o'Lantern, Terracotta, Red Sandstone (all variants, all stairs, all slabs, all walls), Honey Block, Honeycomb Block, Block of Copper (including all cut, waxed, stair, and slab variants), Lightning Rod, Block of Raw Copper",
+    "Name": "COLOR_ORANGE"
+  },
+  {
+    "ID": 61,
+    "RGB": "186, 109, 44",
+    "Blocks": "Acacia (Planks, Log (vertical), Stripped Log, Stripped Wood, Sign, Trapdoor, Slab, Stairs, Pressure Plate, Fence Gate, Fence, Door), Red Sand, Orange (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Pumpkin, Carved Pumpkin, Jack o'Lantern, Terracotta, Red Sandstone (all variants, all stairs, all slabs, all walls), Honey Block, Honeycomb Block, Block of Copper (including all cut, waxed, stair, and slab variants), Lightning Rod, Block of Raw Copper",
+    "Name": "COLOR_ORANGE"
+  },
+  {
+    "ID": 62,
+    "RGB": "216, 127, 51",
+    "Blocks": "Acacia (Planks, Log (vertical), Stripped Log, Stripped Wood, Sign, Trapdoor, Slab, Stairs, Pressure Plate, Fence Gate, Fence, Door), Red Sand, Orange (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Pumpkin, Carved Pumpkin, Jack o'Lantern, Terracotta, Red Sandstone (all variants, all stairs, all slabs, all walls), Honey Block, Honeycomb Block, Block of Copper (including all cut, waxed, stair, and slab variants), Lightning Rod, Block of Raw Copper",
+    "Name": "COLOR_ORANGE"
+  },
+  {
+    "ID": 63,
+    "RGB": "114, 67, 27",
+    "Blocks": "Acacia (Planks, Log (vertical), Stripped Log, Stripped Wood, Sign, Trapdoor, Slab, Stairs, Pressure Plate, Fence Gate, Fence, Door), Red Sand, Orange (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Pumpkin, Carved Pumpkin, Jack o'Lantern, Terracotta, Red Sandstone (all variants, all stairs, all slabs, all walls), Honey Block, Honeycomb Block, Block of Copper (including all cut, waxed, stair, and slab variants), Lightning Rod, Block of Raw Copper",
+    "Name": "COLOR_ORANGE"
+  },
+  {
+    "ID": 64,
+    "RGB": "125, 53, 152",
+    "Blocks": "Magenta (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Purpur (all variants, slab, stairs)",
+    "Name": "COLOR_MAGENTA"
+  },
+  {
+    "ID": 65,
+    "RGB": "153, 65, 186",
+    "Blocks": "Magenta (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Purpur (all variants, slab, stairs)",
+    "Name": "COLOR_MAGENTA"
+  },
+  {
+    "ID": 66,
+    "RGB": "178, 76, 216",
+    "Blocks": "Magenta (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Purpur (all variants, slab, stairs)",
+    "Name": "COLOR_MAGENTA"
+  },
+  {
+    "ID": 67,
+    "RGB": "94, 40, 114",
+    "Blocks": "Magenta (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Purpur (all variants, slab, stairs)",
+    "Name": "COLOR_MAGENTA"
+  },
+  {
+    "ID": 68,
+    "RGB": "72, 108, 152",
+    "Blocks": "Light Blue (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Soul Fire",
+    "Name": "COLOR_LIGHT_BLUE"
+  },
+  {
+    "ID": 69,
+    "RGB": "88, 132, 186",
+    "Blocks": "Light Blue (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Soul Fire",
+    "Name": "COLOR_LIGHT_BLUE"
+  },
+  {
+    "ID": 70,
+    "RGB": "102, 153, 216",
+    "Blocks": "Light Blue (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Soul Fire",
+    "Name": "COLOR_LIGHT_BLUE"
+  },
+  {
+    "ID": 71,
+    "RGB": "54, 81, 114",
+    "Blocks": "Light Blue (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Soul Fire",
+    "Name": "COLOR_LIGHT_BLUE"
+  },
+  {
+    "ID": 72,
+    "RGB": "161, 161, 36",
+    "Blocks": "Sponge, Wet Sponge, Yellow (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Hay Bale, Horn Coral (Coral Block, Coral, Coral Fan), Bee Nest",
+    "Name": "COLOR_YELLOW"
+  },
+  {
+    "ID": 73,
+    "RGB": "197, 197, 44",
+    "Blocks": "Sponge, Wet Sponge, Yellow (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Hay Bale, Horn Coral (Coral Block, Coral, Coral Fan), Bee Nest",
+    "Name": "COLOR_YELLOW"
+  },
+  {
+    "ID": 74,
+    "RGB": "229, 229, 51",
+    "Blocks": "Sponge, Wet Sponge, Yellow (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Hay Bale, Horn Coral (Coral Block, Coral, Coral Fan), Bee Nest",
+    "Name": "COLOR_YELLOW"
+  },
+  {
+    "ID": 75,
+    "RGB": "121, 121, 27",
+    "Blocks": "Sponge, Wet Sponge, Yellow (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Hay Bale, Horn Coral (Coral Block, Coral, Coral Fan), Bee Nest",
+    "Name": "COLOR_YELLOW"
+  },
+  {
+    "ID": 76,
+    "RGB": "89, 144, 17",
+    "Blocks": "Lime (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Melon",
+    "Name": "COLOR_LIGHT_GREEN"
+  },
+  {
+    "ID": 77,
+    "RGB": "109, 176, 21",
+    "Blocks": "Lime (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Melon",
+    "Name": "COLOR_LIGHT_GREEN"
+  },
+  {
+    "ID": 78,
+    "RGB": "127, 204, 25",
+    "Blocks": "Lime (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Melon",
+    "Name": "COLOR_LIGHT_GREEN"
+  },
+  {
+    "ID": 79,
+    "RGB": "67, 108, 13",
+    "Blocks": "Lime (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Melon",
+    "Name": "COLOR_LIGHT_GREEN"
+  },
+  {
+    "ID": 80,
+    "RGB": "170, 89, 116",
+    "Blocks": "Pink (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Brain Coral (Coral Block, Coral, Coral Fan)",
+    "Name": "COLOR_PINK"
+  },
+  {
+    "ID": 81,
+    "RGB": "208, 109, 142",
+    "Blocks": "Pink (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Brain Coral (Coral Block, Coral, Coral Fan)",
+    "Name": "COLOR_PINK"
+  },
+  {
+    "ID": 82,
+    "RGB": "242, 127, 165",
+    "Blocks": "Pink (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Brain Coral (Coral Block, Coral, Coral Fan)",
+    "Name": "COLOR_PINK"
+  },
+  {
+    "ID": 83,
+    "RGB": "128, 67, 87",
+    "Blocks": "Pink (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Brain Coral (Coral Block, Coral, Coral Fan)",
+    "Name": "COLOR_PINK"
+  },
+  {
+    "ID": 84,
+    "RGB": "53, 53, 53",
+    "Blocks": "Acacia Wood, Gray (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Dead Coral (Coral Block, Coral, Coral Fan), Tinted Glass",
+    "Name": "COLOR_GRAY"
+  },
+  {
+    "ID": 85,
+    "RGB": "65, 65, 65",
+    "Blocks": "Acacia Wood, Gray (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Dead Coral (Coral Block, Coral, Coral Fan), Tinted Glass",
+    "Name": "COLOR_GRAY"
+  },
+  {
+    "ID": 86,
+    "RGB": "76, 76, 76",
+    "Blocks": "Acacia Wood, Gray (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Dead Coral (Coral Block, Coral, Coral Fan), Tinted Glass",
+    "Name": "COLOR_GRAY"
+  },
+  {
+    "ID": 87,
+    "RGB": "40, 40, 40",
+    "Blocks": "Acacia Wood, Gray (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Dead Coral (Coral Block, Coral, Coral Fan), Tinted Glass",
+    "Name": "COLOR_GRAY"
+  },
+  {
+    "ID": 88,
+    "RGB": "108, 108, 108",
+    "Blocks": "Light Gray (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Banner, Glazed Terracotta, Concrete, Concrete Powder, Candle), Structure Block, Jigsaw Block",
+    "Name": "COLOR_LIGHT_GRAY"
+  },
+  {
+    "ID": 89,
+    "RGB": "132, 132, 132",
+    "Blocks": "Light Gray (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Banner, Glazed Terracotta, Concrete, Concrete Powder, Candle), Structure Block, Jigsaw Block",
+    "Name": "COLOR_LIGHT_GRAY"
+  },
+  {
+    "ID": 90,
+    "RGB": "153, 153, 153",
+    "Blocks": "Light Gray (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Banner, Glazed Terracotta, Concrete, Concrete Powder, Candle), Structure Block, Jigsaw Block",
+    "Name": "COLOR_LIGHT_GRAY"
+  },
+  {
+    "ID": 91,
+    "RGB": "81, 81, 81",
+    "Blocks": "Light Gray (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Banner, Glazed Terracotta, Concrete, Concrete Powder, Candle), Structure Block, Jigsaw Block",
+    "Name": "COLOR_LIGHT_GRAY"
+  },
+  {
+    "ID": 92,
+    "RGB": "53, 89, 108",
+    "Blocks": "Cyan (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Prismarine (slab, stairs, wall), Warped (Roots, Fungus), Twisting Vines, Nether Sprouts, Sculk Sensor",
+    "Name": "COLOR_CYAN"
+  },
+  {
+    "ID": 93,
+    "RGB": "65, 109, 132",
+    "Blocks": "Cyan (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Prismarine (slab, stairs, wall), Warped (Roots, Fungus), Twisting Vines, Nether Sprouts, Sculk Sensor",
+    "Name": "COLOR_CYAN"
+  },
+  {
+    "ID": 94,
+    "RGB": "76, 127, 153",
+    "Blocks": "Cyan (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Prismarine (slab, stairs, wall), Warped (Roots, Fungus), Twisting Vines, Nether Sprouts, Sculk Sensor",
+    "Name": "COLOR_CYAN"
+  },
+  {
+    "ID": 95,
+    "RGB": "40, 67, 81",
+    "Blocks": "Cyan (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Prismarine (slab, stairs, wall), Warped (Roots, Fungus), Twisting Vines, Nether Sprouts, Sculk Sensor",
+    "Name": "COLOR_CYAN"
+  },
+  {
+    "ID": 96,
+    "RGB": "89, 44, 125",
+    "Blocks": "Shulker Box, Purple (Wool, Carpet, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Mycelium, Chorus Plant, Chorus Flower, Repeating Command Block, Bubble Coral (Coral Block, Coral, Coral Fan), Amethyst Block, Budding Amethyst, Amethyst Cluster, Amethyst Bud (all sizes),",
+    "Name": "COLOR_PURPLE"
+  },
+  {
+    "ID": 97,
+    "RGB": "109, 54, 153",
+    "Blocks": "Shulker Box, Purple (Wool, Carpet, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Mycelium, Chorus Plant, Chorus Flower, Repeating Command Block, Bubble Coral (Coral Block, Coral, Coral Fan), Amethyst Block, Budding Amethyst, Amethyst Cluster, Amethyst Bud (all sizes),",
+    "Name": "COLOR_PURPLE"
+  },
+  {
+    "ID": 98,
+    "RGB": "127, 63, 178",
+    "Blocks": "Shulker Box, Purple (Wool, Carpet, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Mycelium, Chorus Plant, Chorus Flower, Repeating Command Block, Bubble Coral (Coral Block, Coral, Coral Fan), Amethyst Block, Budding Amethyst, Amethyst Cluster, Amethyst Bud (all sizes),",
+    "Name": "COLOR_PURPLE"
+  },
+  {
+    "ID": 99,
+    "RGB": "67, 33, 94",
+    "Blocks": "Shulker Box, Purple (Wool, Carpet, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Mycelium, Chorus Plant, Chorus Flower, Repeating Command Block, Bubble Coral (Coral Block, Coral, Coral Fan), Amethyst Block, Budding Amethyst, Amethyst Cluster, Amethyst Bud (all sizes),",
+    "Name": "COLOR_PURPLE"
+  },
+  {
+    "ID": 100,
+    "RGB": "36, 53, 125",
+    "Blocks": "Blue (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Tube Coral (Coral Block, Coral, Coral Fan)",
+    "Name": "COLOR_BLUE"
+  },
+  {
+    "ID": 101,
+    "RGB": "44, 65, 153",
+    "Blocks": "Blue (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Tube Coral (Coral Block, Coral, Coral Fan)",
+    "Name": "COLOR_BLUE"
+  },
+  {
+    "ID": 102,
+    "RGB": "51, 76, 178",
+    "Blocks": "Blue (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Tube Coral (Coral Block, Coral, Coral Fan)",
+    "Name": "COLOR_BLUE"
+  },
+  {
+    "ID": 103,
+    "RGB": "27, 40, 94",
+    "Blocks": "Blue (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Tube Coral (Coral Block, Coral, Coral Fan)",
+    "Name": "COLOR_BLUE"
+  },
+  {
+    "ID": 104,
+    "RGB": "72, 53, 36",
+    "Blocks": "Dark Oak (Planks, Log, Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Spruce Log (side), Brown (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Soul Sand, Command Block, Brown Mushroom, Soul Soil",
+    "Name": "COLOR_BROWN"
+  },
+  {
+    "ID": 105,
+    "RGB": "88, 65, 44",
+    "Blocks": "Dark Oak (Planks, Log, Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Spruce Log (side), Brown (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Soul Sand, Command Block, Brown Mushroom, Soul Soil",
+    "Name": "COLOR_BROWN"
+  },
+  {
+    "ID": 106,
+    "RGB": "102, 76, 51",
+    "Blocks": "Dark Oak (Planks, Log, Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Spruce Log (side), Brown (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Soul Sand, Command Block, Brown Mushroom, Soul Soil",
+    "Name": "COLOR_BROWN"
+  },
+  {
+    "ID": 107,
+    "RGB": "54, 40, 27",
+    "Blocks": "Dark Oak (Planks, Log, Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Spruce Log (side), Brown (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Soul Sand, Command Block, Brown Mushroom, Soul Soil",
+    "Name": "COLOR_BROWN"
+  },
+  {
+    "ID": 108,
+    "RGB": "72, 89, 36",
+    "Blocks": "Green (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), End Portal Frame, Chain Command Block, Sea Pickle, Moss Carpet, Moss Block, Dried Kelp Block",
+    "Name": "COLOR_GREEN"
+  },
+  {
+    "ID": 109,
+    "RGB": "88, 109, 44",
+    "Blocks": "Green (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), End Portal Frame, Chain Command Block, Sea Pickle, Moss Carpet, Moss Block, Dried Kelp Block",
+    "Name": "COLOR_GREEN"
+  },
+  {
+    "ID": 110,
+    "RGB": "102, 127, 51",
+    "Blocks": "Green (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), End Portal Frame, Chain Command Block, Sea Pickle, Moss Carpet, Moss Block, Dried Kelp Block",
+    "Name": "COLOR_GREEN"
+  },
+  {
+    "ID": 111,
+    "RGB": "54, 67, 27",
+    "Blocks": "Green (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), End Portal Frame, Chain Command Block, Sea Pickle, Moss Carpet, Moss Block, Dried Kelp Block",
+    "Name": "COLOR_GREEN"
+  },
+  {
+    "ID": 112,
+    "RGB": "108, 36, 36",
+    "Blocks": "Red (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Bricks (slab, stairs, wall), Red Mushroom Block, Nether Wart, Enchanting Table, Nether Wart Block, Fire Coral (Coral Block, Coral, Coral Fan), Red Mushroom, Shroomlight",
+    "Name": "COLOR_RED"
+  },
+  {
+    "ID": 113,
+    "RGB": "132, 44, 44",
+    "Blocks": "Red (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Bricks (slab, stairs, wall), Red Mushroom Block, Nether Wart, Enchanting Table, Nether Wart Block, Fire Coral (Coral Block, Coral, Coral Fan), Red Mushroom, Shroomlight",
+    "Name": "COLOR_RED"
+  },
+  {
+    "ID": 114,
+    "RGB": "153, 51, 51",
+    "Blocks": "Red (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Bricks (slab, stairs, wall), Red Mushroom Block, Nether Wart, Enchanting Table, Nether Wart Block, Fire Coral (Coral Block, Coral, Coral Fan), Red Mushroom, Shroomlight",
+    "Name": "COLOR_RED"
+  },
+  {
+    "ID": 115,
+    "RGB": "81, 27, 27",
+    "Blocks": "Red (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Bricks (slab, stairs, wall), Red Mushroom Block, Nether Wart, Enchanting Table, Nether Wart Block, Fire Coral (Coral Block, Coral, Coral Fan), Red Mushroom, Shroomlight",
+    "Name": "COLOR_RED"
+  },
+  {
+    "ID": 116,
+    "RGB": "17, 17, 17",
+    "Blocks": "Black (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Obsidian, End Portal, Dragon Egg, Coal Block, End Gateway, Basalt, Polished Basalt, Smooth Basalt, Block of Netherite, Ancient Debris, Crying Obsidian, Respawn Anchor, Blackstone (all variants, all stairs, all slabs, all walls), Gilded Blackstone",
+    "Name": "COLOR_BLACK"
+  },
+  {
+    "ID": 117,
+    "RGB": "21, 21, 21",
+    "Blocks": "Black (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Obsidian, End Portal, Dragon Egg, Coal Block, End Gateway, Basalt, Polished Basalt, Smooth Basalt, Block of Netherite, Ancient Debris, Crying Obsidian, Respawn Anchor, Blackstone (all variants, all stairs, all slabs, all walls), Gilded Blackstone",
+    "Name": "COLOR_BLACK"
+  },
+  {
+    "ID": 118,
+    "RGB": "25, 25, 25",
+    "Blocks": "Black (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Obsidian, End Portal, Dragon Egg, Coal Block, End Gateway, Basalt, Polished Basalt, Smooth Basalt, Block of Netherite, Ancient Debris, Crying Obsidian, Respawn Anchor, Blackstone (all variants, all stairs, all slabs, all walls), Gilded Blackstone",
+    "Name": "COLOR_BLACK"
+  },
+  {
+    "ID": 119,
+    "RGB": "13, 13, 13",
+    "Blocks": "Black (Wool, Carpet, Shulker Box, Bed (foot), Stained Glass, Glazed Terracotta, Concrete, Concrete Powder, Candle), Obsidian, End Portal, Dragon Egg, Coal Block, End Gateway, Basalt, Polished Basalt, Smooth Basalt, Block of Netherite, Ancient Debris, Crying Obsidian, Respawn Anchor, Blackstone (all variants, all stairs, all slabs, all walls), Gilded Blackstone",
+    "Name": "COLOR_BLACK"
+  },
+  {
+    "ID": 120,
+    "RGB": "176, 168, 54",
+    "Blocks": "Block of Gold, Light Weighted Pressure Plate, Bell, Block of Raw Gold",
+    "Name": "GOLD"
+  },
+  {
+    "ID": 121,
+    "RGB": "215, 205, 66",
+    "Blocks": "Block of Gold, Light Weighted Pressure Plate, Bell, Block of Raw Gold",
+    "Name": "GOLD"
+  },
+  {
+    "ID": 122,
+    "RGB": "250, 238, 77",
+    "Blocks": "Block of Gold, Light Weighted Pressure Plate, Bell, Block of Raw Gold",
+    "Name": "GOLD"
+  },
+  {
+    "ID": 123,
+    "RGB": "132, 126, 40",
+    "Blocks": "Block of Gold, Light Weighted Pressure Plate, Bell, Block of Raw Gold",
+    "Name": "GOLD"
+  },
+  {
+    "ID": 124,
+    "RGB": "64, 154, 150",
+    "Blocks": "Block of Diamond, Beacon, Prismarine Bricks (slab, stairs), Dark Prismarine (slab, stairs), Conduit",
+    "Name": "DIAMOND"
+  },
+  {
+    "ID": 125,
+    "RGB": "79, 188, 183",
+    "Blocks": "Block of Diamond, Beacon, Prismarine Bricks (slab, stairs), Dark Prismarine (slab, stairs), Conduit",
+    "Name": "DIAMOND"
+  },
+  {
+    "ID": 126,
+    "RGB": "92, 219, 213",
+    "Blocks": "Block of Diamond, Beacon, Prismarine Bricks (slab, stairs), Dark Prismarine (slab, stairs), Conduit",
+    "Name": "DIAMOND"
+  },
+  {
+    "ID": 127,
+    "RGB": "48, 115, 112",
+    "Blocks": "Block of Diamond, Beacon, Prismarine Bricks (slab, stairs), Dark Prismarine (slab, stairs), Conduit",
+    "Name": "DIAMOND"
+  },
+  {
+    "ID": 128,
+    "RGB": "52, 90, 180",
+    "Blocks": "Block of Lapis Lazuli",
+    "Name": "LAPIS"
+  },
+  {
+    "ID": 129,
+    "RGB": "63, 110, 220",
+    "Blocks": "Block of Lapis Lazuli",
+    "Name": "LAPIS"
+  },
+  {
+    "ID": 130,
+    "RGB": "74, 128, 255",
+    "Blocks": "Block of Lapis Lazuli",
+    "Name": "LAPIS"
+  },
+  {
+    "ID": 131,
+    "RGB": "39, 67, 135",
+    "Blocks": "Block of Lapis Lazuli",
+    "Name": "LAPIS"
+  },
+  {
+    "ID": 132,
+    "RGB": "0, 153, 40",
+    "Blocks": "Block of Emerald",
+    "Name": "EMERALD"
+  },
+  {
+    "ID": 133,
+    "RGB": "0, 187, 50",
+    "Blocks": "Block of Emerald",
+    "Name": "EMERALD"
+  },
+  {
+    "ID": 134,
+    "RGB": "0, 217, 58",
+    "Blocks": "Block of Emerald",
+    "Name": "EMERALD"
+  },
+  {
+    "ID": 135,
+    "RGB": "0, 114, 30",
+    "Blocks": "Block of Emerald",
+    "Name": "EMERALD"
+  },
+  {
+    "ID": 136,
+    "RGB": "91, 60, 34",
+    "Blocks": "Podzol, Spruce (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Oak Log (side), Jungle Log (side), Campfire, Soul Campfire",
+    "Name": "PODZOL"
+  },
+  {
+    "ID": 137,
+    "RGB": "111, 74, 42",
+    "Blocks": "Podzol, Spruce (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Oak Log (side), Jungle Log (side), Campfire, Soul Campfire",
+    "Name": "PODZOL"
+  },
+  {
+    "ID": 138,
+    "RGB": "129, 86, 49",
+    "Blocks": "Podzol, Spruce (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Oak Log (side), Jungle Log (side), Campfire, Soul Campfire",
+    "Name": "PODZOL"
+  },
+  {
+    "ID": 139,
+    "RGB": "68, 45, 25",
+    "Blocks": "Podzol, Spruce (Planks, Log (vertical), Stripped Log, Wood, Stripped Wood, Sign, Pressure Plate, Trapdoor, Stairs, Slab, Fence Gate, Fence, Door), Oak Log (side), Jungle Log (side), Campfire, Soul Campfire",
+    "Name": "PODZOL"
+  },
+  {
+    "ID": 140,
+    "RGB": "79, 1, 0",
+    "Blocks": "Netherrack, Nether Bricks (fence, slab, stairs, wall, chiseled, cracked), Nether Gold Ore, Nether Quartz Ore, Magma Block, Red Nether Bricks (slab, stairs, wall), Crimson (Roots, Fungus), Weeping Vines",
+    "Name": "NETHER"
+  },
+  {
+    "ID": 141,
+    "RGB": "96, 1, 0",
+    "Blocks": "Netherrack, Nether Bricks (fence, slab, stairs, wall, chiseled, cracked), Nether Gold Ore, Nether Quartz Ore, Magma Block, Red Nether Bricks (slab, stairs, wall), Crimson (Roots, Fungus), Weeping Vines",
+    "Name": "NETHER"
+  },
+  {
+    "ID": 142,
+    "RGB": "112, 2, 0",
+    "Blocks": "Netherrack, Nether Bricks (fence, slab, stairs, wall, chiseled, cracked), Nether Gold Ore, Nether Quartz Ore, Magma Block, Red Nether Bricks (slab, stairs, wall), Crimson (Roots, Fungus), Weeping Vines",
+    "Name": "NETHER"
+  },
+  {
+    "ID": 143,
+    "RGB": "59, 1, 0",
+    "Blocks": "Netherrack, Nether Bricks (fence, slab, stairs, wall, chiseled, cracked), Nether Gold Ore, Nether Quartz Ore, Magma Block, Red Nether Bricks (slab, stairs, wall), Crimson (Roots, Fungus), Weeping Vines",
+    "Name": "NETHER"
+  },
+  {
+    "ID": 144,
+    "RGB": "147, 124, 113",
+    "Blocks": "White Terracotta, Calcite",
+    "Name": "TERRACOTTA_WHITE"
+  },
+  {
+    "ID": 145,
+    "RGB": "180, 152, 138",
+    "Blocks": "White Terracotta, Calcite",
+    "Name": "TERRACOTTA_WHITE"
+  },
+  {
+    "ID": 146,
+    "RGB": "209, 177, 161",
+    "Blocks": "White Terracotta, Calcite",
+    "Name": "TERRACOTTA_WHITE"
+  },
+  {
+    "ID": 147,
+    "RGB": "110, 93, 85",
+    "Blocks": "White Terracotta, Calcite",
+    "Name": "TERRACOTTA_WHITE"
+  },
+  {
+    "ID": 148,
+    "RGB": "112, 57, 25",
+    "Blocks": "Orange Terracotta",
+    "Name": "TERRACOTTA_ORANGE"
+  },
+  {
+    "ID": 149,
+    "RGB": "137, 70, 31",
+    "Blocks": "Orange Terracotta",
+    "Name": "TERRACOTTA_ORANGE"
+  },
+  {
+    "ID": 150,
+    "RGB": "159, 82, 36",
+    "Blocks": "Orange Terracotta",
+    "Name": "TERRACOTTA_ORANGE"
+  },
+  {
+    "ID": 151,
+    "RGB": "84, 43, 19",
+    "Blocks": "Orange Terracotta",
+    "Name": "TERRACOTTA_ORANGE"
+  },
+  {
+    "ID": 152,
+    "RGB": "105, 61, 76",
+    "Blocks": "Magenta Terracotta",
+    "Name": "TERRACOTTA_MAGENTA"
+  },
+  {
+    "ID": 153,
+    "RGB": "128, 75, 93",
+    "Blocks": "Magenta Terracotta",
+    "Name": "TERRACOTTA_MAGENTA"
+  },
+  {
+    "ID": 154,
+    "RGB": "149, 87, 108",
+    "Blocks": "Magenta Terracotta",
+    "Name": "TERRACOTTA_MAGENTA"
+  },
+  {
+    "ID": 155,
+    "RGB": "78, 46, 57",
+    "Blocks": "Magenta Terracotta",
+    "Name": "TERRACOTTA_MAGENTA"
+  },
+  {
+    "ID": 156,
+    "RGB": "79, 76, 97",
+    "Blocks": "Light Blue Terracotta",
+    "Name": "TERRACOTTA_LIGHT_BLUE"
+  },
+  {
+    "ID": 157,
+    "RGB": "96, 93, 119",
+    "Blocks": "Light Blue Terracotta",
+    "Name": "TERRACOTTA_LIGHT_BLUE"
+  },
+  {
+    "ID": 158,
+    "RGB": "112, 108, 138",
+    "Blocks": "Light Blue Terracotta",
+    "Name": "TERRACOTTA_LIGHT_BLUE"
+  },
+  {
+    "ID": 159,
+    "RGB": "59, 57, 73",
+    "Blocks": "Light Blue Terracotta",
+    "Name": "TERRACOTTA_LIGHT_BLUE"
+  },
+  {
+    "ID": 160,
+    "RGB": "131, 93, 25",
+    "Blocks": "Yellow Terracotta",
+    "Name": "TERRACOTTA_YELLOW"
+  },
+  {
+    "ID": 161,
+    "RGB": "160, 114, 31",
+    "Blocks": "Yellow Terracotta",
+    "Name": "TERRACOTTA_YELLOW"
+  },
+  {
+    "ID": 162,
+    "RGB": "186, 133, 36",
+    "Blocks": "Yellow Terracotta",
+    "Name": "TERRACOTTA_YELLOW"
+  },
+  {
+    "ID": 163,
+    "RGB": "98, 70, 19",
+    "Blocks": "Yellow Terracotta",
+    "Name": "TERRACOTTA_YELLOW"
+  },
+  {
+    "ID": 164,
+    "RGB": "72, 82, 37",
+    "Blocks": "Lime Terracotta",
+    "Name": "TERRACOTTA_LIGHT_GREEN"
+  },
+  {
+    "ID": 165,
+    "RGB": "88, 100, 45",
+    "Blocks": "Lime Terracotta",
+    "Name": "TERRACOTTA_LIGHT_GREEN"
+  },
+  {
+    "ID": 166,
+    "RGB": "103, 117, 53",
+    "Blocks": "Lime Terracotta",
+    "Name": "TERRACOTTA_LIGHT_GREEN"
+  },
+  {
+    "ID": 167,
+    "RGB": "54, 61, 28",
+    "Blocks": "Lime Terracotta",
+    "Name": "TERRACOTTA_LIGHT_GREEN"
+  },
+  {
+    "ID": 168,
+    "RGB": "112, 54, 55",
+    "Blocks": "Pink Terracotta",
+    "Name": "TERRACOTTA_PINK"
+  },
+  {
+    "ID": 169,
+    "RGB": "138, 66, 67",
+    "Blocks": "Pink Terracotta",
+    "Name": "TERRACOTTA_PINK"
+  },
+  {
+    "ID": 170,
+    "RGB": "160, 77, 78",
+    "Blocks": "Pink Terracotta",
+    "Name": "TERRACOTTA_PINK"
+  },
+  {
+    "ID": 171,
+    "RGB": "84, 40, 41",
+    "Blocks": "Pink Terracotta",
+    "Name": "TERRACOTTA_PINK"
+  },
+  {
+    "ID": 172,
+    "RGB": "40, 28, 24",
+    "Blocks": "Gray Terracotta, Tuff",
+    "Name": "TERRACOTTA_GRAY"
+  },
+  {
+    "ID": 173,
+    "RGB": "49, 35, 30",
+    "Blocks": "Gray Terracotta, Tuff",
+    "Name": "TERRACOTTA_GRAY"
+  },
+  {
+    "ID": 174,
+    "RGB": "57, 41, 35",
+    "Blocks": "Gray Terracotta, Tuff",
+    "Name": "TERRACOTTA_GRAY"
+  },
+  {
+    "ID": 175,
+    "RGB": "30, 21, 18",
+    "Blocks": "Gray Terracotta, Tuff",
+    "Name": "TERRACOTTA_GRAY"
+  },
+  {
+    "ID": 176,
+    "RGB": "95, 75, 69",
+    "Blocks": "Light Gray Terracotta, Exposed Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "TERRACOTTA_LIGHT_GRAY"
+  },
+  {
+    "ID": 177,
+    "RGB": "116, 92, 84",
+    "Blocks": "Light Gray Terracotta, Exposed Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "TERRACOTTA_LIGHT_GRAY"
+  },
+  {
+    "ID": 178,
+    "RGB": "135, 107, 98",
+    "Blocks": "Light Gray Terracotta, Exposed Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "TERRACOTTA_LIGHT_GRAY"
+  },
+  {
+    "ID": 179,
+    "RGB": "71, 56, 51",
+    "Blocks": "Light Gray Terracotta, Exposed Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "TERRACOTTA_LIGHT_GRAY"
+  },
+  {
+    "ID": 180,
+    "RGB": "61, 64, 64",
+    "Blocks": "Cyan Terracotta",
+    "Name": "TERRACOTTA_CYAN"
+  },
+  {
+    "ID": 181,
+    "RGB": "75, 79, 79",
+    "Blocks": "Cyan Terracotta",
+    "Name": "TERRACOTTA_CYAN"
+  },
+  {
+    "ID": 182,
+    "RGB": "87, 92, 92",
+    "Blocks": "Cyan Terracotta",
+    "Name": "TERRACOTTA_CYAN"
+  },
+  {
+    "ID": 183,
+    "RGB": "46, 48, 48",
+    "Blocks": "Cyan Terracotta",
+    "Name": "TERRACOTTA_CYAN"
+  },
+  {
+    "ID": 184,
+    "RGB": "86, 51, 62",
+    "Blocks": "Purple (Terracotta, Shulker Box)",
+    "Name": "TERRACOTTA_PURPLE"
+  },
+  {
+    "ID": 185,
+    "RGB": "105, 62, 75",
+    "Blocks": "Purple (Terracotta, Shulker Box)",
+    "Name": "TERRACOTTA_PURPLE"
+  },
+  {
+    "ID": 186,
+    "RGB": "122, 73, 88",
+    "Blocks": "Purple (Terracotta, Shulker Box)",
+    "Name": "TERRACOTTA_PURPLE"
+  },
+  {
+    "ID": 187,
+    "RGB": "64, 38, 46",
+    "Blocks": "Purple (Terracotta, Shulker Box)",
+    "Name": "TERRACOTTA_PURPLE"
+  },
+  {
+    "ID": 188,
+    "RGB": "53, 43, 64",
+    "Blocks": "Blue Terracotta",
+    "Name": "TERRACOTTA_BLUE"
+  },
+  {
+    "ID": 189,
+    "RGB": "65, 53, 79",
+    "Blocks": "Blue Terracotta",
+    "Name": "TERRACOTTA_BLUE"
+  },
+  {
+    "ID": 190,
+    "RGB": "76, 62, 92",
+    "Blocks": "Blue Terracotta",
+    "Name": "TERRACOTTA_BLUE"
+  },
+  {
+    "ID": 191,
+    "RGB": "40, 32, 48",
+    "Blocks": "Blue Terracotta",
+    "Name": "TERRACOTTA_BLUE"
+  },
+  {
+    "ID": 192,
+    "RGB": "53, 35, 24",
+    "Blocks": "Brown Terracotta, Pointed Dripstone, Dripstone Block",
+    "Name": "TERRACOTTA_BROWN"
+  },
+  {
+    "ID": 193,
+    "RGB": "65, 43, 30",
+    "Blocks": "Brown Terracotta, Pointed Dripstone, Dripstone Block",
+    "Name": "TERRACOTTA_BROWN"
+  },
+  {
+    "ID": 194,
+    "RGB": "76, 50, 35",
+    "Blocks": "Brown Terracotta, Pointed Dripstone, Dripstone Block",
+    "Name": "TERRACOTTA_BROWN"
+  },
+  {
+    "ID": 195,
+    "RGB": "40, 26, 18",
+    "Blocks": "Brown Terracotta, Pointed Dripstone, Dripstone Block",
+    "Name": "TERRACOTTA_BROWN"
+  },
+  {
+    "ID": 196,
+    "RGB": "53, 57, 29",
+    "Blocks": "Green Terracotta",
+    "Name": "TERRACOTTA_GREEN"
+  },
+  {
+    "ID": 197,
+    "RGB": "65, 70, 36",
+    "Blocks": "Green Terracotta",
+    "Name": "TERRACOTTA_GREEN"
+  },
+  {
+    "ID": 198,
+    "RGB": "76, 82, 42",
+    "Blocks": "Green Terracotta",
+    "Name": "TERRACOTTA_GREEN"
+  },
+  {
+    "ID": 199,
+    "RGB": "40, 43, 22",
+    "Blocks": "Green Terracotta",
+    "Name": "TERRACOTTA_GREEN"
+  },
+  {
+    "ID": 200,
+    "RGB": "100, 42, 32",
+    "Blocks": "Red Terracotta",
+    "Name": "TERRACOTTA_RED"
+  },
+  {
+    "ID": 201,
+    "RGB": "122, 51, 39",
+    "Blocks": "Red Terracotta",
+    "Name": "TERRACOTTA_RED"
+  },
+  {
+    "ID": 202,
+    "RGB": "142, 60, 46",
+    "Blocks": "Red Terracotta",
+    "Name": "TERRACOTTA_RED"
+  },
+  {
+    "ID": 203,
+    "RGB": "75, 31, 24",
+    "Blocks": "Red Terracotta",
+    "Name": "TERRACOTTA_RED"
+  },
+  {
+    "ID": 204,
+    "RGB": "26, 15, 11",
+    "Blocks": "Black Terracotta",
+    "Name": "TERRACOTTA_BLACK"
+  },
+  {
+    "ID": 205,
+    "RGB": "31, 18, 13",
+    "Blocks": "Black Terracotta",
+    "Name": "TERRACOTTA_BLACK"
+  },
+  {
+    "ID": 206,
+    "RGB": "37, 22, 16",
+    "Blocks": "Black Terracotta",
+    "Name": "TERRACOTTA_BLACK"
+  },
+  {
+    "ID": 207,
+    "RGB": "19, 11, 8",
+    "Blocks": "Black Terracotta",
+    "Name": "TERRACOTTA_BLACK"
+  },
+  {
+    "ID": 208,
+    "RGB": "133, 33, 34",
+    "Blocks": "Crimson Nylium",
+    "Name": "CRIMSON_NYLIUM"
+  },
+  {
+    "ID": 209,
+    "RGB": "163, 41, 42",
+    "Blocks": "Crimson Nylium",
+    "Name": "CRIMSON_NYLIUM"
+  },
+  {
+    "ID": 210,
+    "RGB": "189, 48, 49",
+    "Blocks": "Crimson Nylium",
+    "Name": "CRIMSON_NYLIUM"
+  },
+  {
+    "ID": 211,
+    "RGB": "100, 25, 25",
+    "Blocks": "Crimson Nylium",
+    "Name": "CRIMSON_NYLIUM"
+  },
+  {
+    "ID": 212,
+    "RGB": "104, 44, 68",
+    "Blocks": "Crimson (Fence, Fence Gate, Planks, Pressure Plate, Sign, Slab, Stairs, Stem, Stripped Stem, Trapdoor, Door)",
+    "Name": "CRIMSON_STEM"
+  },
+  {
+    "ID": 213,
+    "RGB": "127, 54, 83",
+    "Blocks": "Crimson (Fence, Fence Gate, Planks, Pressure Plate, Sign, Slab, Stairs, Stem, Stripped Stem, Trapdoor, Door)",
+    "Name": "CRIMSON_STEM"
+  },
+  {
+    "ID": 214,
+    "RGB": "148, 63, 97",
+    "Blocks": "Crimson (Fence, Fence Gate, Planks, Pressure Plate, Sign, Slab, Stairs, Stem, Stripped Stem, Trapdoor, Door)",
+    "Name": "CRIMSON_STEM"
+  },
+  {
+    "ID": 215,
+    "RGB": "78, 33, 51",
+    "Blocks": "Crimson (Fence, Fence Gate, Planks, Pressure Plate, Sign, Slab, Stairs, Stem, Stripped Stem, Trapdoor, Door)",
+    "Name": "CRIMSON_STEM"
+  },
+  {
+    "ID": 216,
+    "RGB": "64, 17, 20",
+    "Blocks": "Crimson (Hyphae, Stripped Hyphae)",
+    "Name": "CRIMSON_HYPHAE"
+  },
+  {
+    "ID": 217,
+    "RGB": "79, 21, 25",
+    "Blocks": "Crimson (Hyphae, Stripped Hyphae)",
+    "Name": "CRIMSON_HYPHAE"
+  },
+  {
+    "ID": 218,
+    "RGB": "92, 25, 29",
+    "Blocks": "Crimson (Hyphae, Stripped Hyphae)",
+    "Name": "CRIMSON_HYPHAE"
+  },
+  {
+    "ID": 219,
+    "RGB": "48, 13, 15",
+    "Blocks": "Crimson (Hyphae, Stripped Hyphae)",
+    "Name": "CRIMSON_HYPHAE"
+  },
+  {
+    "ID": 220,
+    "RGB": "15, 88, 94",
+    "Blocks": "Warped Nylium, Oxidized Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "WARPED_NYLIUM"
+  },
+  {
+    "ID": 221,
+    "RGB": "18, 108, 115",
+    "Blocks": "Warped Nylium, Oxidized Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "WARPED_NYLIUM"
+  },
+  {
+    "ID": 222,
+    "RGB": "22, 126, 134",
+    "Blocks": "Warped Nylium, Oxidized Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "WARPED_NYLIUM"
+  },
+  {
+    "ID": 223,
+    "RGB": "11, 66, 70",
+    "Blocks": "Warped Nylium, Oxidized Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "WARPED_NYLIUM"
+  },
+  {
+    "ID": 224,
+    "RGB": "40, 100, 98",
+    "Blocks": "Warped (Fence, Fence Gate, Planks, Pressure Plate, Sign, Slab, Stairs, Stem, Stripped Stem, Trapdoor, Door), Weathered Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "WARPED_STEM"
+  },
+  {
+    "ID": 225,
+    "RGB": "50, 122, 120",
+    "Blocks": "Warped (Fence, Fence Gate, Planks, Pressure Plate, Sign, Slab, Stairs, Stem, Stripped Stem, Trapdoor, Door), Weathered Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "WARPED_STEM"
+  },
+  {
+    "ID": 226,
+    "RGB": "58, 142, 140",
+    "Blocks": "Warped (Fence, Fence Gate, Planks, Pressure Plate, Sign, Slab, Stairs, Stem, Stripped Stem, Trapdoor, Door), Weathered Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "WARPED_STEM"
+  },
+  {
+    "ID": 227,
+    "RGB": "30, 75, 74",
+    "Blocks": "Warped (Fence, Fence Gate, Planks, Pressure Plate, Sign, Slab, Stairs, Stem, Stripped Stem, Trapdoor, Door), Weathered Copper (including all cut, waxed, stair, and slab variants)",
+    "Name": "WARPED_STEM"
+  },
+  {
+    "ID": 228,
+    "RGB": "60, 31, 43",
+    "Blocks": "Warped (Hyphae, Stripped Hyphae)",
+    "Name": "WARPED_HYPHAE"
+  },
+  {
+    "ID": 229,
+    "RGB": "74, 37, 53",
+    "Blocks": "Warped (Hyphae, Stripped Hyphae)",
+    "Name": "WARPED_HYPHAE"
+  },
+  {
+    "ID": 230,
+    "RGB": "86, 44, 62",
+    "Blocks": "Warped (Hyphae, Stripped Hyphae)",
+    "Name": "WARPED_HYPHAE"
+  },
+  {
+    "ID": 231,
+    "RGB": "45, 23, 32",
+    "Blocks": "Warped (Hyphae, Stripped Hyphae)",
+    "Name": "WARPED_HYPHAE"
+  },
+  {
+    "ID": 232,
+    "RGB": "14, 127, 93",
+    "Blocks": "Warped Wart Block",
+    "Name": "WARPED_WART_BLOCK"
+  },
+  {
+    "ID": 233,
+    "RGB": "17, 155, 114",
+    "Blocks": "Warped Wart Block",
+    "Name": "WARPED_WART_BLOCK"
+  },
+  {
+    "ID": 234,
+    "RGB": "20, 180, 133",
+    "Blocks": "Warped Wart Block",
+    "Name": "WARPED_WART_BLOCK"
+  },
+  {
+    "ID": 235,
+    "RGB": "10, 95, 70",
+    "Blocks": "Warped Wart Block",
+    "Name": "WARPED_WART_BLOCK"
+  },
+  {
+    "ID": 236,
+    "RGB": "70, 70, 70",
+    "Blocks": "Deepslate (Gold Ore, Iron Ore, Coal Ore, Lapis Ore, Diamond Ore, Redstone Ore, Emerald Ore, Copper Ore), Deepslate (all variants, all stairs, all slabs, and all walls), Infested Deepslate",
+    "Name": "DEEPSLATE"
+  },
+  {
+    "ID": 237,
+    "RGB": "86, 86, 86",
+    "Blocks": "Deepslate (Gold Ore, Iron Ore, Coal Ore, Lapis Ore, Diamond Ore, Redstone Ore, Emerald Ore, Copper Ore), Deepslate (all variants, all stairs, all slabs, and all walls), Infested Deepslate",
+    "Name": "DEEPSLATE"
+  },
+  {
+    "ID": 238,
+    "RGB": "100, 100, 100",
+    "Blocks": "Deepslate (Gold Ore, Iron Ore, Coal Ore, Lapis Ore, Diamond Ore, Redstone Ore, Emerald Ore, Copper Ore), Deepslate (all variants, all stairs, all slabs, and all walls), Infested Deepslate",
+    "Name": "DEEPSLATE"
+  },
+  {
+    "ID": 239,
+    "RGB": "52, 52, 52",
+    "Blocks": "Deepslate (Gold Ore, Iron Ore, Coal Ore, Lapis Ore, Diamond Ore, Redstone Ore, Emerald Ore, Copper Ore), Deepslate (all variants, all stairs, all slabs, and all walls), Infested Deepslate",
+    "Name": "DEEPSLATE"
+  },
+  {
+    "ID": 240,
+    "RGB": "152, 123, 103",
+    "Blocks": "Block of Raw Iron",
+    "Name": "RAW_IRON"
+  },
+  {
+    "ID": 241,
+    "RGB": "186, 150, 126",
+    "Blocks": "Block of Raw Iron",
+    "Name": "RAW_IRON"
+  },
+  {
+    "ID": 242,
+    "RGB": "216, 175, 147",
+    "Blocks": "Block of Raw Iron",
+    "Name": "RAW_IRON"
+  },
+  {
+    "ID": 243,
+    "RGB": "114, 92, 77",
+    "Blocks": "Block of Raw Iron",
+    "Name": "RAW_IRON"
+  },
+  {
+    "ID": 244,
+    "RGB": "89, 117, 105",
+    "Blocks": "Glow Lichen",
+    "Name": "GLOW_LICHEN"
+  },
+  {
+    "ID": 245,
+    "RGB": "109, 144, 129",
+    "Blocks": "Glow Lichen",
+    "Name": "GLOW_LICHEN"
+  },
+  {
+    "ID": 246,
+    "RGB": "127, 167, 150",
+    "Blocks": "Glow Lichen",
+    "Name": "GLOW_LICHEN"
+  },
+  {
+    "ID": 247,
+    "RGB": "67, 88, 79",
+    "Blocks": "Glow Lichen",
+    "Name": "GLOW_LICHEN"
+  }
 ]
