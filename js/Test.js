@@ -34,6 +34,8 @@ function onFileInput(input) {
         console.debug("AllMaps", mapManager.getAll());
         console.debug("Current", mapManager.getAllCurrent());
         console.debug("Grid", mapManager.grid);
+
+        // Test
     });
 }
 /**
