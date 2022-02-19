@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 /**
  * A MC Map Pixel
  * @author Hydrocynus
@@ -24,31 +15,41 @@ class Pixel {
      * @param {string} [tooltip=""]
      * @memberof Pixel
      */
-    constructor(color = Pixel.defaultColor, tooltip = "") {
+    constructor(color = Pixel._defaultColor, tooltip = "") {
         this.color = color;
         this.tooltip = tooltip;
     }
     /**
      * Returns a new pixel object based on the color information of an id.
      * @author Hydrocynus
-     * @version 28/11/2021 (Changed color of unknown IDs to magenta.)
+     * @version 18/02/2022 (Removed async)
      * @since 20/11/2021
      * @static
      * @param {number} id Color ID. (See class Colors).
-     * @returns {Promise<Pixel>}
+     * @returns {Pixel}
      * @memberof Pixel
      */
     static fromID(id) {
-        return __awaiter(this, void 0, void 0, function* () {
-            try {
-                const color = yield Colors.getByID(id);
-                return new Pixel(color.RGB, color.Blocks);
-            }
-            catch (e) {
-                console.error(e);
-                return new Pixel("255, 0, 255", `Error (${e})`);
-            }
-        });
+        if (!this._colors.ready)
+            return Pixel.fromID(id);
+        try {
+            const color = this._colors.getByID(id);
+            return new Pixel(color.RGB, color.Blocks);
+        }
+        catch (e) {
+            console.error(e);
+            return new Pixel("255, 0, 255", `Error (${e})`);
+        }
+    }
+    /**
+     * Reloads the colorMap from file.
+     * @author Hydrocynus
+     * @date 19/02/2022
+     * @static
+     * @memberof Pixel
+     */
+    static refreshColors() {
+        this._colors = new Colors();
     }
 }
 /**
@@ -60,4 +61,14 @@ class Pixel {
  * @type {string}
  * @memberof Pixel
  */
-Pixel.defaultColor = "Transparent";
+Pixel._defaultColor = "Transparent";
+/**
+ * color object for color reference.
+ * @author Hydrocynus
+ * @date 20/11/2021
+ * @private
+ * @static
+ * @type {Colors}
+ * @memberof Pixel
+ */
+Pixel._colors = new Colors();

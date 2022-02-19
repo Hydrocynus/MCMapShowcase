@@ -27,14 +27,21 @@ function onFileInput(input) {
             console.debug("nbtMap", nbtMap);
             const objMap = yield NBTParser.parse(nbtMap);
             console.debug("objMap", objMap);
-            const mcMap = yield MCMap.fromNBTData(objMap);
+            const mcMap = MCMap.fromNBTData(objMap);
             mapManager.add(mcMap);
             drawMap(mcMap);
         }
         console.debug("AllMaps", mapManager.getAll());
         console.debug("Current", mapManager.getAllCurrent());
         console.debug("Grid", mapManager.grid);
-
+        let out = "";
+        for (let x in mapManager.grid) {
+            for (let y in mapManager.grid[x]) {
+                out += mapManager.grid[x][y] === undefined ? "⬜" : "🟩";
+            }
+            out += "\n";
+        }
+        console.debug(out);
         // Test
     });
 }

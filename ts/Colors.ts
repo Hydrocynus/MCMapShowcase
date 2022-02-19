@@ -5,7 +5,7 @@
  * @since 20/11/2021
  * @interface colorInfo
  */
-interface colorInfo {
+ interface colorInfo {
   ID: number,
   RGB: string,
   Blocks: string,
@@ -15,59 +15,106 @@ interface colorInfo {
 /**
  * provides information to MC map colors.
  * @author Hydrocynus
- * @version 21/11/2021
+ * @version 18/02/2022
  * @since 20/11/2021
  * @class Colors
  */
-class Colors {
+ class Colors {
   /**
-   * Stores color properties to every color id.
+   * Path to colormap json file.
    * @author Hydrocynus
-   * @date 20/11/2021
-   * @private
-   * @static
-   * @type {Map<number, colorInfo>}
-   * @memberof Colors
-   */
-  private static colorMap: Map<number, colorInfo>;
-
-  /**
-   * path to config file.
-   * @author Hydrocynus
-   * @date 20/11/2021
+   * @version 21/11/2021
+   * @since 20/11/2021
    * @private
    * @static
    * @type {string}
    * @memberof Colors
    */
-  private static url: string = "config/mcmapcolorids.json";
+  private static _url: string = "config/mcmapcolorids.json";
 
   /**
-   * returns all color properties.
+   * All available colors.
    * @author Hydrocynus
-   * @date 20/11/2021
-   * @static
-   * @returns {Promise<Map<number, colorInfo>>}
+   * @version 21/11/2021
+   * @since 20/11/2021
+   * @private
+   * @type {Map<number, colorInfo>}
    * @memberof Colors
    */
-  static async get (): Promise<Map<number, colorInfo>> {
-    if (this.colorMap === undefined) await this.loadColorMap();
-    return this.colorMap;
+  private _colorMap!: Map<number, colorInfo>;
+
+  /**
+   * Set true once colorMap is ready.
+   * @author Hydrocynus
+   * @date 21/11/2021
+   * @private
+   * @type {boolean}
+   * @memberof Colors
+   */
+  private _ready: boolean;
+
+  /**
+   * Gets called once colorMap finishes loading.
+   * @author Hydrocynus
+   * @date 21/11/2021
+   * @private
+   * @type {Function}
+   * @memberof Colors
+   */
+  private _onready?: Function;
+
+  /**
+   * Creates an instance of Colors.
+   * @author Hydrocynus
+   * @version 18/02/2022
+   * @since 21/11/2021
+   * @memberof Colors
+   */
+  constructor () {
+    this.load();
+    this._ready = false;
   }
+
+  /**
+   * All available colors.
+   * @author Hydrocynus
+   * @date 21/11/2021
+   * @readonly
+   * @type {Map<number, colorInfo>}
+   * @memberof Colors
+   */
+  get colorMap (): Map<number, colorInfo> { return this._colorMap; }
+
+  /**
+   * Set true once colorMap is ready.
+   * @author Hydrocynus
+   * @date 21/11/2021
+   * @readonly
+   * @type {boolean}
+   * @memberof Colors
+   */
+  get ready (): boolean { return this._ready; }
+
+  /**
+   * Gets called once colorMap finishes loading.
+   * @author Hydrocynus
+   * @date 21/11/2021
+   * @memberof Colors
+   */
+  set onready (onready: Function) { this._onready = onready; }
 
   /**
    * returns color properties of a id.
    * @author Hydrocynus
-   * @version 21/11/2021 (Implemented CustomError)
+   * @version 18/02/2022 (Made synchonous)
    * @since 20/11/2021
-   * @static
    * @param {number} id
-   * @returns {Promise<colorInfo>}
+   * @returns {colorInfo}
    * @memberof Colors
    * @throws {ColorNotFoundException}
    */
-  static async getByID (id: number): Promise<colorInfo> {
-    const color = (await this.get()).get(id);
+  getByID (id: number): colorInfo {
+    const color = this._colorMap.get(id);
     if (color === undefined) throw new CustomError(Exception.ColorNotFound, `The color ID (${id}) was not found.`);
     return color;
   }
@@ -75,17 +122,20 @@ class Colors {
   /**
    * loads color properties from config file.
    * @author Hydrocynus
-   * @date 20/11/2021
+   * @version 18/02/2022
+   * @since 20/11/2021
    * @private
-   * @static
    * @returns {Promise<Map<number, colorInfo>>}
    * @memberof Colors
    */
-  private static async loadColorMap (): Promise<Map<number, colorInfo>> {
-    const json    = await fetch(this.url);
-    const array   = await json.json();
-    this.colorMap = new Map();
-    array.forEach((color: colorInfo) => this.colorMap.set(color.ID, color));
-    return this.colorMap;
+  private async load (): Promise<Map<number, colorInfo>> {
+    this._ready    = false;
+    const json     = await fetch(Colors._url);
+    const array    = await json.json();
+    this._colorMap = new Map;
+    array.forEach((color: colorInfo) => this._colorMap.set(color.ID, color));
+    this._ready    = true;
+    if (this._onready !== undefined) this._onready();
+    return this._colorMap;
   }
 }

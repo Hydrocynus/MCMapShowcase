@@ -1,7 +1,7 @@
 /**
  * Stores and indexes all maps.
  * @author Hydrocynus
- * @version 27/11/2021
+ * @version 18/02/2022
  * @since 21/11/2021
  * @class MapManager
  */
@@ -113,6 +113,7 @@ class MapManager {
       console.debug("Map", ...map, "at x", x, "and z", z);
       this.addToGrid(x,z,map[1]);
     }
+    this.gridNeedsUpdate = false;
   }
 
   private addToGrid (x: number, z: number, map: MCMap) {

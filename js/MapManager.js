@@ -95,6 +95,7 @@ class MapManager {
             console.debug("Map", ...map, "at x", x, "and z", z);
             this.addToGrid(x, z, map[1]);
         }
+        this.gridNeedsUpdate = false;
     }
     addToGrid(x, z, map) {
         if (this.mapGrid[x] === undefined)

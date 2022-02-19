@@ -17,65 +17,88 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
  */
 class Colors {
     /**
-     * returns all color properties.
+     * Creates an instance of Colors.
      * @author Hydrocynus
-     * @date 20/11/2021
-     * @static
-     * @returns {Promise<Map<number, colorInfo>>}
+     * @version 18/02/2022
+     * @since 21/11/2021
      * @memberof Colors
      */
-    static get() {
-        return __awaiter(this, void 0, void 0, function* () {
-            if (this.colorMap === undefined)
-                yield this.loadColorMap();
-            return this.colorMap;
-        });
+    constructor() {
+        this.load();
+        this._ready = false;
     }
+    /**
+     * All available colors.
+     * @author Hydrocynus
+     * @date 21/11/2021
+     * @readonly
+     * @type {Map<number, colorInfo>}
+     * @memberof Colors
+     */
+    get colorMap() { return this._colorMap; }
+    /**
+     * Set true once colorMap is ready.
+     * @author Hydrocynus
+     * @date 21/11/2021
+     * @readonly
+     * @type {boolean}
+     * @memberof Colors
+     */
+    get ready() { return this._ready; }
+    /**
+     * Gets called once colorMap finishes loading.
+     * @author Hydrocynus
+     * @date 21/11/2021
+     * @memberof Colors
+     */
+    set onready(onready) { this._onready = onready; }
     /**
      * returns color properties of a id.
      * @author Hydrocynus
-     * @version 21/11/2021 (Implemented CustomError)
+     * @version 18/02/2022 (Made synchonous)
      * @since 20/11/2021
-     * @static
      * @param {number} id
-     * @returns {Promise<colorInfo>}
+     * @returns {colorInfo}
      * @memberof Colors
      * @throws {ColorNotFoundException}
      */
-    static getByID(id) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const color = (yield this.get()).get(id);
-            if (color === undefined)
-                throw new CustomError(Exception.ColorNotFound, `The color ID (${id}) was not found.`);
-            return color;
-        });
+    getByID(id) {
+        const color = this._colorMap.get(id);
+        if (color === undefined)
+            throw new CustomError(Exception.ColorNotFound, `The color ID (${id}) was not found.`);
+        return color;
     }
     /**
      * loads color properties from config file.
      * @author Hydrocynus
-     * @date 20/11/2021
+     * @version 18/02/2022
+     * @since 20/11/2021
      * @private
-     * @static
      * @returns {Promise<Map<number, colorInfo>>}
      * @memberof Colors
      */
-    static loadColorMap() {
+    load() {
         return __awaiter(this, void 0, void 0, function* () {
-            const json = yield fetch(this.url);
+            this._ready = false;
+            const json = yield fetch(Colors._url);
             const array = yield json.json();
-            this.colorMap = new Map();
-            array.forEach((color) => this.colorMap.set(color.ID, color));
-            return this.colorMap;
+            this._colorMap = new Map;
+            array.forEach((color) => this._colorMap.set(color.ID, color));
+            this._ready = true;
+            if (this._onready !== undefined)
+                this._onready();
+            return this._colorMap;
         });
     }
 }
 /**
- * path to config file.
+ * Path to colormap json file.
  * @author Hydrocynus
- * @date 20/11/2021
+ * @version 21/11/2021
+ * @since 20/11/2021
  * @private
  * @static
  * @type {string}
  * @memberof Colors
  */
-Colors.url = "config/mcmapcolorids.json";
+Colors._url = "config/mcmapcolorids.json";

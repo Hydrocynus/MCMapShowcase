@@ -1,6 +1,6 @@
 /**
  * @author Hydrocynus
- * @version 28/11/2021
+ * @version 18/02/2022 (Removed await for MCMap.fromNBTData)
  * @since 21/11/2021
  * @param {HTMLInputElement} input
  */
@@ -14,7 +14,7 @@ async function onFileInput(input: HTMLInputElement) {
     console.debug("nbtMap", nbtMap);
     const objMap = await NBTParser.parse(nbtMap);
     console.debug("objMap", objMap);
-    const mcMap  = await MCMap.fromNBTData(objMap);
+    const mcMap  = MCMap.fromNBTData(objMap);
     mapManager.add(mcMap);
     drawMap(mcMap);
   }
